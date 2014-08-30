@@ -1,2 +1,2 @@
-XNAPWN
+MegamanX v Zero Game
 ======
