@@ -8,7 +8,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\player.xnb</Output>
-      <Time>2014-08-30T14:04:12.8828786-07:00</Time>
+      <Time>2014-08-30T16:05:43.9360546-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\SFX\bing.wav</Source>
+      <Name>Audio\SFX\bing</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Audio\SFX\bing.xnb</Output>
+      <Time>2014-08-30T16:29:43.9633429-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

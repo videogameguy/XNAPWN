@@ -1,4 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Input;
 
 namespace WeakSven
@@ -22,10 +24,22 @@ namespace WeakSven
 		private Player() : base() { }
 		#endregion
 
+		public AudioSFX bing = new AudioSFX();
+
 		public void SetName(string name) { Name = name; }
+
+		public override void Load(ContentManager Content, string imageFile)
+		{
+			base.Load(Content, imageFile);
+
+			bing.Sound = Content.Load<SoundEffect>("Audio/SFX/bing");
+		}
 
 		public override void Update(GameTime gameTime)
 		{
+			if (((int)gameTime.TotalGameTime.TotalSeconds) % 3 == 0)
+				bing.Play(gameTime);
+
 			// TODO:  Change player controls to fit your game
 
 			if (Keyboard.GetState().IsKeyDown(Keys.W) ||
