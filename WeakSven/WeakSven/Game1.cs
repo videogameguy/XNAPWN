@@ -26,6 +26,8 @@ namespace WeakSven
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+			Player.Instance.Load(Content, "Characters/player");
         }
 
         protected override void UnloadContent() { }
@@ -38,6 +40,8 @@ namespace WeakSven
 			if (Keyboard.GetState().IsKeyDown(Keys.Escape))
 				this.Exit();
 
+			Player.Instance.Update(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -46,7 +50,7 @@ namespace WeakSven
             GraphicsDevice.Clear(Color.CornflowerBlue);
 			spriteBatch.Begin();
 
-
+			Player.Instance.Draw(spriteBatch);
 
 			spriteBatch.End();
             base.Draw(gameTime);

@@ -1,0 +1,7 @@
+C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\WeakSven.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\WeakSven.exe
+C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\WeakSven.pdb
+C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\WeakSven.exe
+C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\WeakSven.pdb
+C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\player.xnb
