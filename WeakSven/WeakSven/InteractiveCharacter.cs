@@ -4,13 +4,13 @@
 	{
 		public int Health { get; protected set; }
 		public int Attack { get; protected set; }
-		public int Defense { get; protected set; }
-		public int Money { get; protected set; }
+
 
 		public InteractiveCharacter()
 			: base()
 		{
-
+            Health = 100;
+            Attack = 100;
 		}
 	}
 }

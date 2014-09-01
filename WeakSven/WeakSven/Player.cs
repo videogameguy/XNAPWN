@@ -42,25 +42,21 @@ namespace WeakSven
 
 			// TODO:  Change player controls to fit your game
 
-			if (Keyboard.GetState().IsKeyDown(Keys.W) ||
-				Keyboard.GetState().IsKeyDown(Keys.Up))
+			if (Keyboard.GetState().IsKeyDown(Keys.W))
 			{
 				Velocity.Y = -Speed;
 			}
-			else if (Keyboard.GetState().IsKeyDown(Keys.A) ||
-				Keyboard.GetState().IsKeyDown(Keys.Left))
+            else if (Keyboard.GetState().IsKeyDown(Keys.S))
+            {
+                Velocity.Y = +Speed;
+            }
+			else if (Keyboard.GetState().IsKeyDown(Keys.A))
 			{
 				Velocity.X = -Speed;
 			}
-			else if (Keyboard.GetState().IsKeyDown(Keys.S) ||
-				Keyboard.GetState().IsKeyDown(Keys.Down))
+			else if (Keyboard.GetState().IsKeyDown(Keys.D))
 			{
-				Velocity.Y = Speed;
-			}
-			else if (Keyboard.GetState().IsKeyDown(Keys.D) ||
-				Keyboard.GetState().IsKeyDown(Keys.Right))
-			{
-				Velocity.X = Speed;
+				Velocity.X = +Speed;
 			}
 			else
 				Velocity = Vector2.Zero;

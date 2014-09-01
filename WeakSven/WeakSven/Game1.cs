@@ -28,6 +28,7 @@ namespace WeakSven
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
 			Player.Instance.Load(Content, "Characters/Player");
+            Player2.Instance.Load(Content, "Characters/Player");
         }
 
         protected override void UnloadContent() { }
@@ -41,6 +42,7 @@ namespace WeakSven
 				this.Exit();
 
 			Player.Instance.Update(gameTime);
+            Player2.Instance.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -51,6 +53,7 @@ namespace WeakSven
 			spriteBatch.Begin();
 
 			Player.Instance.Draw(spriteBatch);
+            Player2.Instance.Draw2(spriteBatch);
 
 			spriteBatch.End();
             base.Draw(gameTime);

@@ -15,13 +15,13 @@ namespace WeakSven
 
 		public bool Play(GameTime gameTime)
 		{
-			if (startTime == 0 ||
+			/*if (startTime == 0 ||
 				gameTime.TotalGameTime.TotalSeconds - startTime >= Sound.Duration.TotalSeconds)
 			{
 				Sound.Play();
 				startTime = gameTime.TotalGameTime.TotalSeconds;
 				return true;
-			}
+			}*/
 
 			return false;
 		}
