@@ -61,6 +61,25 @@ namespace WeakSven
 			else
 				Velocity = Vector2.Zero;
 
+            // projectile directions
+
+            if (Keyboard.GetState().IsKeyDown(Keys.Y))
+            {
+                Velocity.Y = -Speed;
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.H))
+            {
+                Velocity.Y = +Speed;
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.G))
+            {
+                Velocity.X = -Speed;
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.J))
+            {
+                Velocity.X = +Speed;
+            }
+
 			base.Update(gameTime);
 		}
 	}
