@@ -7,7 +7,7 @@ using System.Text;
 
 namespace WeakSven
 {
-    public class Projectile
+    public class Projectile : Character
     {
         Texture2D projectileSpriteM;
         Texture2D projectileSpriteZ;
@@ -34,10 +34,16 @@ namespace WeakSven
         {
             
             // Creation of new bullet
-            Bullet = new Projectile(bulletTexture, currentPlayerPosition);
+            Bullet = new Projectile(projectileSpriteM, Player2Position);
 
             // If you need to add to the list
-            Bullets.Add(new Projectile(bulletTexture, currentPlayerPosition)); // or in this case just add Bullet
+            Bullets.Add(new Projectile(projectileSpriteM, Player2Position)); // or in this case just add Bullet
+
+            // Creation of new bullet
+            Bullet = new Projectile(projectileSpriteZ, Player1Position);
+
+            // If you need to add to the list
+            Bullets.Add(new Projectile(projectileSpriteZ, Player1Position)); // or in this case just add Bullet
                        
         }
 
@@ -53,11 +59,10 @@ namespace WeakSven
                         
         }
 
-        {
+        
         // if single projectile
-        Bullet = null;
+        int Bullet = 0;
 
         }
-
-    }
 }
+

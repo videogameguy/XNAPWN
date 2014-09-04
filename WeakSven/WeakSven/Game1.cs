@@ -27,7 +27,7 @@ namespace WeakSven
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-			Player.Instance.Load(Content, "Characters/Player");
+			Player1.Instance.Load(Content, "Characters/Player");
             Player2.Instance.Load(Content, "Characters/Player2");
         }
 
@@ -41,7 +41,7 @@ namespace WeakSven
 			if (Keyboard.GetState().IsKeyDown(Keys.Escape))
 				this.Exit();
 
-			Player.Instance.Update(gameTime);
+			Player1.Instance.Update(gameTime);
             Player2.Instance.Update(gameTime);
 
             base.Update(gameTime);
@@ -52,7 +52,7 @@ namespace WeakSven
             GraphicsDevice.Clear(Color.CornflowerBlue);
 			spriteBatch.Begin();
 
-			Player.Instance.Draw(spriteBatch);
+			Player1.Instance.Draw(spriteBatch);
             Player2.Instance.Draw2(spriteBatch);
 
 			spriteBatch.End();

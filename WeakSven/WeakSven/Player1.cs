@@ -6,22 +6,22 @@ using Microsoft.Xna.Framework.Input;
 namespace WeakSven
 {
 	// sealed
-	class Player : InteractiveCharacter
+	class Player1 : InteractiveCharacter
 	{
 		#region Singleton Stuff
-		private static Player instance = null;
-		public static Player Instance
+		private static Player1 instance = null;
+		public static Player1 Instance
 		{
 			get
 			{
 				if (instance == null)
-					instance = new Player();
+					instance = new Player1();
 
 				return instance;
 			}
 		}
 
-		private Player() : base() { }
+		private Player1() : base() { }
 		#endregion
 
 		public AudioSFX bing = new AudioSFX();

@@ -80,7 +80,7 @@
     <Compile Include="Circle.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="InteractiveCharacter.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="Player1.cs" />
     <Compile Include="Player2.cs" />
     <Compile Include="Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
