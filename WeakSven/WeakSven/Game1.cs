@@ -28,7 +28,7 @@ namespace WeakSven
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
 			Player.Instance.Load(Content, "Characters/Player");
-            Player2.Instance.Load(Content, "Characters/Player");
+            Player2.Instance.Load(Content, "Characters/Player2");
         }
 
         protected override void UnloadContent() { }

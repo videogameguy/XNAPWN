@@ -1,2 +1,3 @@
 Content\Characters\Player.xnb
 Content\Audio\SFX\bing.xnb
+Content\Characters\Player2.xnb

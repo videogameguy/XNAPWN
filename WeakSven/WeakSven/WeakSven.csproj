@@ -74,15 +74,19 @@
   <ItemGroup>
     <Compile Include="Animation.cs" />
     <Compile Include="AudioSFX.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="LevelCreator.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="InteractiveCharacter.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Player2.cs" />
+    <Compile Include="Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="Tile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
