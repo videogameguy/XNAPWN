@@ -9,6 +9,13 @@ namespace WeakSven
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        KeyboardState previousKeyboard;
+
+        Level level = new Level();
+        //LevelCreator builder = new LevelCreator();
+
+        //private bool builderMode = false;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -19,13 +26,17 @@ namespace WeakSven
         {
             base.Initialize();
 
-			// Comment the following if you don't want to see the mouse
 			IsMouseVisible = true;
         }
 
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            //builder.LoadTextures(Content);
+
+            level.LoadTextures(Content);
+            level.Load(1);
 
 			Player1.Instance.Load(Content, "Characters/Player");
             Player2.Instance.Load(Content, "Characters/Player2");
@@ -44,6 +55,26 @@ namespace WeakSven
 			Player1.Instance.Update(gameTime);
             Player2.Instance.Update(gameTime);
 
+            //if (builderMode)
+               // builder.Update(gameTime, previousKeyboard);
+            //else
+           // {
+                if (Keyboard.GetState().IsKeyDown(Keys.Space) &&
+                    previousKeyboard.IsKeyUp(Keys.Space))
+                {
+                    level.Next();
+                }
+            //}
+
+            //if (Keyboard.GetState().IsKeyDown(Keys.Tab) &&
+             //   previousKeyboard.IsKeyUp(Keys.Tab))
+           // {
+            //    builderMode = !builderMode;
+           // }
+
+            previousKeyboard = Keyboard.GetState();
+
+
             base.Update(gameTime);
         }
 
@@ -54,6 +85,12 @@ namespace WeakSven
 
 			Player1.Instance.Draw(spriteBatch);
             Player2.Instance.Draw2(spriteBatch);
+
+            //if (builderMode)
+             //   builder.Draw(spriteBatch);
+           // else
+                level.Draw(spriteBatch);
+
 
 			spriteBatch.End();
             base.Draw(gameTime);

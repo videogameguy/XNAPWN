@@ -7,10 +7,10 @@ using System.Text;
 
 namespace WeakSven
 {
-    public class Projectile : Character
+    class Projectile : Character
     {
-        Texture2D projectileSpriteM;
-        Texture2D projectileSpriteZ;
+        Texture2D projectileSprite;
+
         Rectangle projectileHitBox;
 
         /*
@@ -20,10 +20,10 @@ namespace WeakSven
         float projectileRotation;
         */
 
-        public Projectile(Texture2D spriteTexture, Vector2 projectilePosition) 
+        public Projectile(Texture2D projectileSprite, Vector2 projectilePosition)
         {
-            projectileSpriteM = spriteTexture;
-            projectileSpriteZ = spriteTexture;
+            
+
             // insert additional code here, such as creation of hitbox
         }
 
@@ -32,37 +32,35 @@ namespace WeakSven
 
         public override void Update(GameTime gameTime)
         {
-            
-            // Creation of new bullet
-            Bullet = new Projectile(projectileSpriteM, Player2Position);
-
-            // If you need to add to the list
-            Bullets.Add(new Projectile(projectileSpriteM, Player2Position)); // or in this case just add Bullet
 
             // Creation of new bullet
-            Bullet = new Projectile(projectileSpriteZ, Player1Position);
+            Bullet = new Projectile(projectileSprite, Player2.Instance.Position);
 
             // If you need to add to the list
-            Bullets.Add(new Projectile(projectileSpriteZ, Player1Position)); // or in this case just add Bullet
-                       
+            Bullets.Add(new Projectile(projectileSprite, Player2.Instance.Position)); // or in this case just add Bullet
+
+            // Creation of new bullet
+            Bullet = new Projectile(projectileSprite, Player1.Instance.Position);
+
+            // If you need to add to the list
+            Bullets.Add(new Projectile(projectileSprite, Player1.Instance.Position)); // or in this case just add Bullet
+
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(bulletTexture, bulletHitBox, Color.White); 
+            spriteBatch.Draw(projectileSprite, projectileHitBox, Color.White);
         }
 
-        public override void Draw (GameTime gameTime)
+        /*public override void Draw (GameTime gameTime)
         {
             
             Projectile.Draw(spriteBatch);
                         
-        }
-
-        
-        // if single projectile
-        int Bullet = 0;
-
-        }
+        } */
+    }
 }
+       
+        
+    
 

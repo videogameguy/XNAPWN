@@ -57,7 +57,7 @@ namespace WeakSven
                 for (int i = 0; i < line.Length; i++)
                 {
                     if (Textures.ContainsKey(line[i]))
-                        Tile.Add(new Tile(Textures[line[i]], i * 25, y));
+                       Tiles.Add(new Tile(Textures[line[i]], i * 25, y));
                 }
 
                 y += 25;

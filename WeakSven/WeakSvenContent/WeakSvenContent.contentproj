@@ -75,26 +75,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Characters\MegaManX.gif">
-      <Name>MegaManX</Name>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Characters\MMX.gif">
-      <Name>MMX</Name>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Characters\ProjectileSheet.gif">
-      <Name>ProjectileSheet</Name>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Characters\Zero.gif">
-      <Name>Zero</Name>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Characters\Vile%28Enemy%29.png">
       <Name>Vile%28Enemy%29</Name>
       <Importer>TextureImporter</Importer>
@@ -138,9 +118,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Characters\Tanks.gif">
-      <Name>Tanks</Name>
+    <Compile Include="Block.png">
+      <Name>Block</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
     </Compile>
+    <Compile Include="Grass.png">
+      <Name>Grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Level1.txt">
+      <Name>Level1</Name>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level2.txt">
+      <Name>Level2</Name>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
