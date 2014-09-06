@@ -9,7 +9,7 @@ namespace WeakSven
 		public Animation animation = new Animation();
 
 		protected Rectangle rect = new Rectangle(0, 0, 0, 0);
-        protected Rectangle rect2 = new Rectangle(300, 0, 0, 0);
+        protected Rectangle rect2 = new Rectangle(0, 0, 0, 0);
 
 		public Vector2 Position { get; set; }
         public Vector2 Position2 { get; set; }
@@ -19,11 +19,21 @@ namespace WeakSven
 
 		public float Speed { get; protected set; }
 
-		public Character() : base() { Speed = 2.5f; }
-		public Character(string name) : base(name) { Speed = 2.5f; }
+		public Character() : base() 
+        {
+            Speed = 2.5f; 
+            Position=new Vector2(5,25);
+            Position2 = new Vector2(730, 410);
+        }
+		public Character(string name) : base(name) 
+        { 
+            Speed = 2.5f; 
+        }
 
 		public virtual void Load(ContentManager Content, string imageFile)
 		{
+
+
 			animation.FrameCountX = 4;
 			animation.FrameCountY = 4;
 			animation.FramesPerSec = 33;
