@@ -136,6 +136,42 @@
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Audio\SFX\bing.xnb</Output>
       <Time>2014-09-06T13:16:41.8645083-07:00</Time>
     </Item>
+    <Item>
+      <Source>Effects\ShootDown.png</Source>
+      <Name>Effects\ShootDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\ShootDown.xnb</Output>
+      <Time>2014-09-06T16:43:17.7832883-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\ShootLeft.png</Source>
+      <Name>Effects\ShootLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\ShootLeft.xnb</Output>
+      <Time>2014-09-06T16:43:17.7862886-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\ShootRight.png</Source>
+      <Name>Effects\ShootRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\ShootRight.xnb</Output>
+      <Time>2014-09-06T16:43:17.7892889-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\ShootUp.png</Source>
+      <Name>Effects\ShootUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\ShootUp.xnb</Output>
+      <Time>2014-09-06T16:43:17.8012901-07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{A3936EFA-AB81-4292-B172-4B675DF12269}</ContentProjectGUID>

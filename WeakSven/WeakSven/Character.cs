@@ -80,14 +80,16 @@ namespace WeakSven
 
 		}
 
-		public void Draw(SpriteBatch spriteBatch)
+		public virtual void Draw(SpriteBatch spriteBatch)
 		{
 			animation.Draw(spriteBatch, Position);
 		}
 
-        public void Draw2(SpriteBatch spriteBatch)
+        public virtual void Draw2(SpriteBatch spriteBatch)
         {
             animation.Draw(spriteBatch, Position2);
         }
+
+
 	}
 }

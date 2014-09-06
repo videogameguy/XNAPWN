@@ -130,6 +130,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Effects\ShootDown.png">
+      <Name>ShootDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Effects\ShootLeft.png">
+      <Name>ShootLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Effects\ShootRight.png">
+      <Name>ShootRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Effects\ShootUp.png">
+      <Name>ShootUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
     <Content Include="Level1.txt">
       <Name>Level1</Name>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

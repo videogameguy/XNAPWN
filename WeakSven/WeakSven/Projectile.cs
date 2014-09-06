@@ -4,60 +4,56 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework.Content;
 
 namespace WeakSven
 {
     class Projectile : Character
     {
-        Texture2D projectileSprite;
+        public static Animation sharedAnimation = new Animation();
 
-        Rectangle projectileHitBox;
-
-        /*
-        Vector2 projectilePosition;
-        Vector2 projectileOrigin;
-        float projectileScale;
-        float projectileRotation;
-        */
-
-        public Projectile(Texture2D projectileSprite, Vector2 projectilePosition)
+        public Projectile(Vector2 startPosition, Vector2 direction) 
         {
-            
+            Speed = 35.0f;
+            Velocity = direction * Speed;
 
-            // insert additional code here, such as creation of hitbox
+            Position = startPosition;
+
+            rect.X = (int)Position.X;
+            rect.Y = (int)Position.Y;
+            rect.Width = sharedAnimation.FrameWidth;
+            rect.Height = sharedAnimation.FrameHeight;
         }
 
-        Projectile Bullet; // declaration of single bullet
-        List<Projectile> Bullets; // to track multiple bullets at once
+        public override void Load(ContentManager Content, string imageFile)
+        {
+            throw new Exception("Don't use this.  Use Projectile.StaticLoad instead.");
+        }
+
+        public static void StaticLoad(ContentManager Content, string imageFile)
+        {
+
+            sharedAnimation.FrameCountX = 2;
+            sharedAnimation.FrameCountY = 2;
+            sharedAnimation.FramesPerSec = 8;
+
+			sharedAnimation.SpriteSheet = Content.Load<Texture2D>(imageFile);
+     
+        }
 
         public override void Update(GameTime gameTime)
         {
-
-            // Creation of new bullet
-            Bullet = new Projectile(projectileSprite, Player2.Instance.Position);
-
-            // If you need to add to the list
-            Bullets.Add(new Projectile(projectileSprite, Player2.Instance.Position)); // or in this case just add Bullet
-
-            // Creation of new bullet
-            Bullet = new Projectile(projectileSprite, Player1.Instance.Position);
-
-            // If you need to add to the list
-            Bullets.Add(new Projectile(projectileSprite, Player1.Instance.Position)); // or in this case just add Bullet
-
+            Position += Velocity;
+            rect.X = (int)Position.X;
+            rect.Y = (int)Position.Y;
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(projectileSprite, projectileHitBox, Color.White);
+            sharedAnimation.Draw(spriteBatch, Position);
         }
 
-        /*public override void Draw (GameTime gameTime)
-        {
-            
-            Projectile.Draw(spriteBatch);
-                        
-        } */
+       
     }
 }
        

@@ -13,5 +13,9 @@ Content\Tiles\WoodBarrel.xnb
 Content\Block.xnb
 Content\Grass.xnb
 Content\Audio\SFX\bing.xnb
+Content\Effects\ShootDown.xnb
+Content\Effects\ShootLeft.xnb
+Content\Effects\ShootRight.xnb
+Content\Effects\ShootUp.xnb
 Content\Level1.txt
 Content\Level2.txt

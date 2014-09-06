@@ -9,7 +9,7 @@ namespace WeakSven
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        KeyboardState previousKeyboard;
+        public static KeyboardState previousKeyboard;
 
         Level level = new Level();
         //LevelCreator builder = new LevelCreator();
@@ -40,6 +40,10 @@ namespace WeakSven
 
 			Player1.Instance.Load(Content, "Characters/Player");
             Player2.Instance.Load(Content, "Characters/Player2");
+            Projectile.StaticLoad(Content, "Effects/ShootUp");
+            Projectile.StaticLoad(Content, "Effects/ShootDown");
+            Projectile.StaticLoad(Content, "Effects/ShootLeft");
+            Projectile.StaticLoad(Content, "Effects/ShootRight");
         }
 
         protected override void UnloadContent() { }
@@ -54,7 +58,7 @@ namespace WeakSven
 
 			Player1.Instance.Update(gameTime);
             Player2.Instance.Update(gameTime);
-
+           
             //if (builderMode)
                // builder.Update(gameTime, previousKeyboard);
             //else
