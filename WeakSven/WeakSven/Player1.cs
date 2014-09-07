@@ -43,6 +43,9 @@ namespace WeakSven
             if (((int)gameTime.TotalGameTime.TotalSeconds) % 3 == 0)
                 bing.Play(gameTime);
 
+            animation.sequenceStart = 0;
+            animation.sequenceEnd = animation.sequenceStart + animation.FrameCountX * 2;
+
             // TODO:  Change player controls to fit your game
 
             if (Keyboard.GetState().IsKeyDown(Keys.W))
