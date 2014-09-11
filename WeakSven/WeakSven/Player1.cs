@@ -71,7 +71,7 @@ namespace WeakSven
 
             if (Keyboard.GetState().IsKeyDown(Keys.Y) && Game1.previousKeyboard.IsKeyUp(Keys.Y))
             {
-                bullets.Add(new Projectile(Position, Vector2.UnitY));
+                bullets.Add(new Projectile(Position, -Vector2.UnitY));
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.H) && Game1.previousKeyboard.IsKeyUp(Keys.H))
             {
@@ -79,7 +79,7 @@ namespace WeakSven
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.G) && Game1.previousKeyboard.IsKeyUp(Keys.G))
             {
-                bullets.Add(new Projectile(Position, Vector2.UnitX));
+                bullets.Add(new Projectile(Position, -Vector2.UnitX));
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.J) && Game1.previousKeyboard.IsKeyUp(Keys.J))
             {

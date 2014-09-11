@@ -23,8 +23,21 @@ namespace WeakSven
 
         public void LoadTextures(ContentManager Content)
         {
-            Textures.Add('b', Content.Load<Texture2D>("Block"));
-            Textures.Add('g', Content.Load<Texture2D>("Grass"));
+            Textures.Add('z', Content.Load<Texture2D>("Tiles/Block"));
+            Textures.Add('x', Content.Load<Texture2D>("Tiles/Grass"));
+            Textures.Add('c', Content.Load<Texture2D>("Tiles/Concrete"));
+            Textures.Add('v', Content.Load<Texture2D>("Tiles/Bricks"));
+            Textures.Add('b', Content.Load<Texture2D>("Tiles/Chips"));
+            Textures.Add('n', Content.Load<Texture2D>("Tiles/Pizza"));
+            Textures.Add('m', Content.Load<Texture2D>("Tiles/Popcorn"));
+            Textures.Add('a', Content.Load<Texture2D>("Tiles/Steak"));
+            Textures.Add('s', Content.Load<Texture2D>("Tiles/Waffles"));
+            Textures.Add('d', Content.Load<Texture2D>("Tiles/RedCar"));
+            Textures.Add('f', Content.Load<Texture2D>("Tiles/BlueCar"));
+            Textures.Add('g', Content.Load<Texture2D>("Tiles/GreenCar"));
+            Textures.Add('h', Content.Load<Texture2D>("Tiles/YellowCar"));
+            Textures.Add('j', Content.Load<Texture2D>("Tiles/Log"));
+            Textures.Add('k', Content.Load<Texture2D>("Tiles/Ammo"));
         }
 
         private void Unload()
@@ -39,7 +52,7 @@ namespace WeakSven
 
         public string GetLevelFile(int level)
         {
-            return "Content/Level" + level + ".txt";
+            return "Content/Levels/Level" + level + ".txt";
         }
 
         public void Load(int level)
