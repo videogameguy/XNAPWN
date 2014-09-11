@@ -9,7 +9,6 @@ Content\Effects\ShootRight.xnb
 Content\Effects\ShootUp.xnb
 Content\Tiles\Bricks.xnb
 Content\Tiles\Concrete.xnb
-Content\Audio\SFX\bing.xnb
 Content\Tiles\Chips.xnb
 Content\Tiles\Pizza.xnb
 Content\Tiles\Popcorn.xnb
@@ -21,6 +20,7 @@ Content\Tiles\GreenCar.xnb
 Content\Tiles\YellowCar.xnb
 Content\Tiles\Log.xnb
 Content\Tiles\Ammo.xnb
+Content\Audio\SFX\bing.xnb
 Content\Levels\Level2.txt
 Content\Levels\Level4.txt
 Content\Levels\Level3.txt

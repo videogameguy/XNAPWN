@@ -42,8 +42,8 @@ namespace WeakSven
             if (((int)gameTime.TotalGameTime.TotalSeconds) % 3 == 0)
                 bing.Play(gameTime);
 
-            // TODO:  Change player controls to fit your game
-
+            // TODO:  Change player controls to fit your game         
+                    
             if (Keyboard.GetState().IsKeyDown(Keys.Up))
             {
                 Velocity.Y = -Speed;
@@ -60,29 +60,28 @@ namespace WeakSven
             {
                 Velocity.X = +Speed;
             }
-            else
-                Velocity = Vector2.Zero;
 
             // projectile directions
 
-            if (Keyboard.GetState().IsKeyDown(Keys.NumPad8))
+            /*
+            if (Keyboard.GetState().IsKeyDown(Keys.Y) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad8))
             {
-                Velocity.Y = -Speed;
+                bullets.Add(new Projectile(Position, -Vector2.UnitY));
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad5))
+            else if (Keyboard.GetState().IsKeyDown(Keys.H) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad5))
             {
-                Velocity.Y = +Speed;
+                bullets.Add(new Projectile(Position, Vector2.UnitY));
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad4))
+            else if (Keyboard.GetState().IsKeyDown(Keys.G) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad4))
             {
-                Velocity.X = -Speed;
+                bullets.Add(new Projectile(Position, -Vector2.UnitX));
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad6))
+            else if (Keyboard.GetState().IsKeyDown(Keys.J) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad6))
             {
-                Velocity.X = +Speed;
+                bullets.Add(new Projectile(Position, Vector2.UnitX));
             }
-
             base.Update(gameTime);
+            */
         }
     }
 }
