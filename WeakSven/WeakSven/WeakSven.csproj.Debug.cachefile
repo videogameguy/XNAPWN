@@ -3,10 +3,6 @@ Content\Characters\Player2.xnb
 Content\Characters\Vile(Enemy).xnb
 Content\Tiles\Block.xnb
 Content\Tiles\Grass.xnb
-Content\Effects\ShootDown.xnb
-Content\Effects\ShootLeft.xnb
-Content\Effects\ShootRight.xnb
-Content\Effects\ShootUp.xnb
 Content\Backgrounds\Bars.xnb
 Content\Backgrounds\BioHazard.xnb
 Content\Backgrounds\Blocks.xnb
@@ -26,6 +22,14 @@ Content\Tiles\Log.xnb
 Content\Tiles\Ammo.xnb
 Content\Audio\SFX\bing.xnb
 Content\Segoe.xnb
+Content\Effects\SkullDown.xnb
+Content\Effects\SkullLeft.xnb
+Content\Effects\SkullRight.xnb
+Content\Effects\SkullUp.xnb
+Content\Level_Images\Level1Image.xnb
+Content\Level_Images\Level2Image.xnb
+Content\Level_Images\Level3Image.xnb
+Content\Level_Images\Level4Image.xnb
 Content\Levels\Level2.txt
 Content\Levels\Level4.txt
 Content\Levels\Level3.txt

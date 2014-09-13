@@ -10,7 +10,20 @@ namespace WeakSven
 {
     public class Projectile : Character
     {
-        public static Animation sharedAnimation = new Animation();
+        public static Texture2D sharedUp = null;
+        public static Texture2D sharedDown = null;
+        public static Texture2D sharedLeft = null;
+        public static Texture2D sharedRight = null;
+
+        public enum Direction
+        {
+            Up,
+            Down,
+            Left,
+            Right
+        }
+
+        public Direction direction = Direction.Up;
 
         public Projectile(Vector2 startPosition, Vector2 direction) 
         {
@@ -19,11 +32,10 @@ namespace WeakSven
             
             Position = startPosition;
             
-            
             rect.X = (int)Position.X;
             rect.Y = (int)Position.Y;
-            rect.Width = sharedAnimation.FrameWidth;
-            rect.Height = sharedAnimation.FrameHeight;
+            rect.Width = sharedUp.Width;
+            rect.Height = sharedUp.Height;
         }
 
 
@@ -32,15 +44,12 @@ namespace WeakSven
             throw new Exception("Don't use this.  Use Projectile.StaticLoad instead.");
         }
 
-        public static void StaticLoad(ContentManager Content, string imageFile)
+        public static void StaticLoad(ContentManager Content, string[] imageFile)
         {
-
-            sharedAnimation.FrameCountX = 2;
-            sharedAnimation.FrameCountY = 2;
-            sharedAnimation.FramesPerSec = 8;
-
-			sharedAnimation.SpriteSheet = Content.Load<Texture2D>(imageFile);
-    
+            sharedUp = Content.Load<Texture2D>(imageFile[0]);
+            sharedDown = Content.Load<Texture2D>(imageFile[1]);
+            sharedLeft = Content.Load<Texture2D>(imageFile[2]);
+            sharedRight = Content.Load<Texture2D>(imageFile[3]);
         }
 
         public override void Update(GameTime gameTime)
@@ -48,21 +57,18 @@ namespace WeakSven
             Position += Velocity;
             rect.X = (int)Position.X;
             rect.Y = (int)Position.Y;
-
-            
-            
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            sharedAnimation.Draw(spriteBatch, Position);
-   
+            if (direction == Direction.Up)
+                spriteBatch.Draw(sharedUp, rect, Color.White);
+            else if (direction == Direction.Down)
+                spriteBatch.Draw(sharedDown, rect, Color.White);
+            else if (direction == Direction.Left)
+                spriteBatch.Draw(sharedLeft, rect, Color.White);
+            else if (direction == Direction.Right)
+                spriteBatch.Draw(sharedRight, rect, Color.White);
         }
-
-       
     }
 }
-       
-        
-    
-

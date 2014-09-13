@@ -10,10 +10,10 @@ namespace WeakSven
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        Button button = new Button(new Rectangle(0, 0, 200, 50));
+        //Button button = new Button(new Rectangle(0, 0, 200, 50));
 
-        public Player player1 = new Player(new Vector2(2, 25));
-        public Player player2 = new Player(new Vector2(730, 410));
+        public Player player1 = new Player(new Vector2(300, 75));
+        public Player player2 = new Player(new Vector2(500, 350));
 
         public static KeyboardState previousKeyboard;
 
@@ -46,20 +46,17 @@ namespace WeakSven
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            UIManager.Init(GraphicsDevice, Content.Load<SpriteFont>("Segoe"));
-            button.Text = "Click me!";
+            //UIManager.Init(GraphicsDevice, Content.Load<SpriteFont>("Segoe"));
+            //button.Text = "Click me!";
 
-            button.onClick += button_onClick;
+            //button.onClick += button_onClick;
 
             level.LoadTextures(Content);
             level.Load(1,Content);
 
 			player1.Load(Content, "Characters/Player");
             player2.Load(Content, "Characters/Player2");
-            Projectile.StaticLoad(Content, "Effects/ShootUp");
-            Projectile.StaticLoad(Content, "Effects/ShootDown");
-            Projectile.StaticLoad(Content, "Effects/ShootLeft");
-            Projectile.StaticLoad(Content, "Effects/ShootRight");
+            Projectile.StaticLoad(Content, new string[] { "Effects/SkullUp", "Effects/SkullDown", "Effects/SkullLeft", "Effects/SkullRight" });
         }
 
         void button_onClick(Component sender)
@@ -94,8 +91,8 @@ namespace WeakSven
                     previousKeyboard.IsKeyUp(Keys.Space))
                 {
                     level.Next(Content);
-                    player1.Position = new Vector2(2, 25);
-                    player2.Position = new Vector2(730, 410);
+                    player1.Position = new Vector2(300, 75);
+                    player2.Position = new Vector2(500, 525);
                 }
            
 

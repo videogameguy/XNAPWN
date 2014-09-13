@@ -90,19 +90,19 @@ namespace WeakSven
 
             if (Keyboard.GetState().IsKeyDown(shootUp) && Game1.previousKeyboard.IsKeyUp(shootUp))
             {
-                bullets.Add(new Projectile(Position, -Vector2.UnitY));
+                bullets.Add(new Projectile(Position, -Vector2.UnitY) { direction = Projectile.Direction.Up });
             }
             else if (Keyboard.GetState().IsKeyDown(shootDown) && Game1.previousKeyboard.IsKeyUp(shootDown))
             {
-                bullets.Add(new Projectile(Position, Vector2.UnitY));
+                bullets.Add(new Projectile(Position, Vector2.UnitY) { direction = Projectile.Direction.Down });
             }
             else if (Keyboard.GetState().IsKeyDown(shootLeft) && Game1.previousKeyboard.IsKeyUp(shootLeft))
             {
-                bullets.Add(new Projectile(Position, -Vector2.UnitX));
+                bullets.Add(new Projectile(Position, -Vector2.UnitX) { direction = Projectile.Direction.Left });
             }
             else if (Keyboard.GetState().IsKeyDown(shootRight) && Game1.previousKeyboard.IsKeyUp(shootRight))
             {
-                bullets.Add(new Projectile(Position, Vector2.UnitX));
+                bullets.Add(new Projectile(Position, Vector2.UnitX) { direction = Projectile.Direction.Right });
             }
 
             foreach (Projectile b in bullets)

@@ -47,42 +47,6 @@
       <Time>2014-09-13T14:13:48.7381184-07:00</Time>
     </Item>
     <Item>
-      <Source>Effects\ShootDown.png</Source>
-      <Name>Effects\ShootDown</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\ShootDown.xnb</Output>
-      <Time>2014-09-13T14:13:48.7301184-07:00</Time>
-    </Item>
-    <Item>
-      <Source>Effects\ShootLeft.png</Source>
-      <Name>Effects\ShootLeft</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\ShootLeft.xnb</Output>
-      <Time>2014-09-13T14:13:48.7311184-07:00</Time>
-    </Item>
-    <Item>
-      <Source>Effects\ShootRight.png</Source>
-      <Name>Effects\ShootRight</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\ShootRight.xnb</Output>
-      <Time>2014-09-13T14:13:48.7311184-07:00</Time>
-    </Item>
-    <Item>
-      <Source>Effects\ShootUp.png</Source>
-      <Name>Effects\ShootUp</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\ShootUp.xnb</Output>
-      <Time>2014-09-13T14:13:48.7321184-07:00</Time>
-    </Item>
-    <Item>
       <Source>Backgrounds\Bars.png</Source>
       <Name>Backgrounds\Bars</Name>
       <Importer>TextureImporter</Importer>
@@ -252,6 +216,78 @@
       <Options>None</Options>
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Segoe.xnb</Output>
       <Time>2014-09-13T15:20:36.6814624-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SkullDown.png</Source>
+      <Name>Effects\SkullDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullDown.xnb</Output>
+      <Time>2014-09-13T16:22:56.6636083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SkullLeft.png</Source>
+      <Name>Effects\SkullLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullLeft.xnb</Output>
+      <Time>2014-09-13T16:22:56.6636083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SkullRight.png</Source>
+      <Name>Effects\SkullRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullRight.xnb</Output>
+      <Time>2014-09-13T16:22:56.6636083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SkullUp.png</Source>
+      <Name>Effects\SkullUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullUp.xnb</Output>
+      <Time>2014-09-13T16:22:56.6636083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Images\Level1Image.JPG</Source>
+      <Name>Level_Images\Level1Image</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level1Image.xnb</Output>
+      <Time>2014-09-13T16:23:24.7036083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Images\Level2Image.JPG</Source>
+      <Name>Level_Images\Level2Image</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level2Image.xnb</Output>
+      <Time>2014-09-13T16:23:24.7036083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Images\Level3Image.JPG</Source>
+      <Name>Level_Images\Level3Image</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level3Image.xnb</Output>
+      <Time>2014-09-13T16:23:24.7036083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Images\Level4Image.JPG</Source>
+      <Name>Level_Images\Level4Image</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level4Image.xnb</Output>
+      <Time>2014-09-13T16:23:24.7036083-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
