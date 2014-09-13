@@ -2,7 +2,7 @@
 
 namespace WeakSven
 {
-	class Circle
+	public class Circle
 	{
 		public Vector2 center = Vector2.Zero;
 		public float radius = 0.0f;

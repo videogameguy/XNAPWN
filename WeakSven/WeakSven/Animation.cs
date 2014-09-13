@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace WeakSven
 {
-    class Animation
+    public class Animation
     {
         public int FrameWidth { get; private set; }
         public int FrameHeight { get; private set; }

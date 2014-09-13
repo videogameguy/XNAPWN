@@ -1,7 +1,7 @@
 ﻿
 namespace WeakSven
 {
-	class Entity
+	public class Entity
 	{
 		// Every object should have a name
 		public string Name { get; protected set; }

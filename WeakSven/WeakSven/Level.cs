@@ -5,13 +5,18 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace WeakSven
 {
-    class Level
+    public class Level
     {
         public List<Tile> Tiles { get; private set; }
         public Dictionary<char, Texture2D> Textures { get; private set; }
+
+        public Rectangle rect = new Rectangle(25, 50, 750, 400);
+
+        private Texture2D backgroundImage = null;
 
         public int CurrentLevel { get; private set; }
 
@@ -45,9 +50,9 @@ namespace WeakSven
             Tiles.Clear();
         }
 
-        public void Next()
+        public void Next(ContentManager Content)
         {
-            Load(CurrentLevel + 1);
+            Load(CurrentLevel + 1, Content);
         }
 
         public string GetLevelFile(int level)
@@ -55,7 +60,26 @@ namespace WeakSven
             return "Content/Levels/Level" + level + ".txt";
         }
 
-        public void Load(int level)
+        public void Update(GameTime gameTime, Player player1, Player player2)
+        {
+            CheckBullets(player1, player2);
+            CheckBullets(player2, player1);
+        }
+
+        private void CheckBullets(Player attacker, Player other)
+        {
+            for (int i = 0; i < attacker.Bullets.Count; i++)
+            {
+                if (attacker.Bullets[i].rect.Intersects(other.rect))
+                {
+                    attacker.Bullets.RemoveAt(i--);
+                    other.Die(attacker, other);
+                }
+
+            }
+        }
+
+        public void Load(int level, ContentManager Content)
         {
             if (!File.Exists(GetLevelFile(level)))
                 level = 1;
@@ -65,8 +89,16 @@ namespace WeakSven
             Unload();
 
             int y = 0;
+            bool first = true;
             foreach (string line in File.ReadLines(GetLevelFile(level)))
             {
+                if (first)
+                {
+                    backgroundImage = Content.Load<Texture2D>(line);
+                    first = false;
+                    continue;
+                }
+
                 for (int i = 0; i < line.Length; i++)
                 {
                     if (Textures.ContainsKey(line[i]))
@@ -75,12 +107,18 @@ namespace WeakSven
 
                 y += 25;
             }
+
+            
         }
+
+
 
         public void Draw(SpriteBatch spriteBatch)
         {
+            spriteBatch.Draw(backgroundImage, rect, Color.White);
             foreach (Tile t in Tiles)
                 t.Draw(spriteBatch);
+            
         }
     }
 }

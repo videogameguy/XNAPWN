@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Content;
 
 namespace WeakSven
 {
-    class Projectile : Character
+    public class Projectile : Character
     {
         public static Animation sharedAnimation = new Animation();
 
@@ -18,17 +18,12 @@ namespace WeakSven
             Velocity = direction * Speed;
             
             Position = startPosition;
-            Position2 = startPosition;
+            
             
             rect.X = (int)Position.X;
             rect.Y = (int)Position.Y;
             rect.Width = sharedAnimation.FrameWidth;
             rect.Height = sharedAnimation.FrameHeight;
-
-            rect2.X = (int)Position2.X;
-            rect2.Y = (int)Position2.Y;
-            rect2.Width = sharedAnimation.FrameWidth;
-            rect2.Height = sharedAnimation.FrameHeight;
         }
 
 
@@ -54,16 +49,14 @@ namespace WeakSven
             rect.X = (int)Position.X;
             rect.Y = (int)Position.Y;
 
-            Position2 += Velocity;
-            rect2.X = (int)Position2.X;
-            rect2.Y = (int)Position2.Y;
+            
             
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
             sharedAnimation.Draw(spriteBatch, Position);
-            sharedAnimation.Draw(spriteBatch, Position2);
+   
         }
 
        

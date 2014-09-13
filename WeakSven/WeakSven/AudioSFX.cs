@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Audio;
 
 namespace WeakSven
 {
-	class AudioSFX
+	public class AudioSFX
 	{
 		public SoundEffect Sound { get; set; }
 		private double startTime = 0.0;

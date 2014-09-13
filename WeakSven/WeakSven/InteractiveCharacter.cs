@@ -1,6 +1,7 @@
-﻿namespace WeakSven
+﻿using Microsoft.Xna.Framework;
+namespace WeakSven
 {
-	class InteractiveCharacter : Character
+	public class InteractiveCharacter : Character
 	{
 		public int Health { get; protected set; }
 		public int Attack { get; protected set; }
@@ -12,5 +13,12 @@
             Health = 100;
             Attack = 100;
 		}
+
+        public InteractiveCharacter(Vector2 startPosition)
+            : base(startPosition)
+        {
+            Health = 100;
+            Attack = 100;
+        }
 	}
 }

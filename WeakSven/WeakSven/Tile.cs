@@ -7,7 +7,7 @@ using System.Text;
 
 namespace WeakSven
 {
-    class Tile
+    public class Tile
     {
             private Texture2D img = null;
             public Rectangle Rect { get; private set; }

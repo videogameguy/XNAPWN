@@ -8,28 +8,45 @@ using Microsoft.Xna.Framework.Input;
 namespace WeakSven
 {
     // sealed
-    class Player1 : InteractiveCharacter
+    public class Player : InteractiveCharacter
     {
+        //notes
         #region Singleton Stuff
-        private static Player1 instance = null;
-        public static Player1 Instance
-        {
-            get
-            {
-                if (instance == null)
-                    instance = new Player1();
+        //private static Player1 instance = null;
+        //public static Player1 Instance
+        //{
+        //    get
+        //    {
+        //        if (instance == null)
+        //            instance = new Player1(new Vector2 (5, 25));
 
-                return instance;
-            }
-        }
+        //        return instance;
+        //    }
+        //}
 
-        private Player1() : base() { }
+        
         #endregion
 
+     
+
+        public Player() : base() { }
+        public Player(Vector2 startPosition) : base(startPosition) { }
         public AudioSFX bing = new AudioSFX();
 
         public void SetName(string name) { Name = name; }
-        public List<Projectile> bullets = new List<Projectile>(10);
+        private List<Projectile> bullets = new List<Projectile>(10);
+
+        public List<Projectile> Bullets { get { return bullets; } }
+
+        public Keys shootUp = Keys.Y;
+        public Keys shootDown = Keys.H;
+        public Keys shootLeft = Keys.G;
+        public Keys shootRight = Keys.J;
+
+        public Keys moveUp = Keys.W;
+        public Keys moveDown = Keys.S;
+        public Keys moveLeft = Keys.A;
+        public Keys moveRight = Keys.D;
 
         public override void Load(ContentManager Content, string imageFile)
         {
@@ -47,21 +64,22 @@ namespace WeakSven
             animation.sequenceEnd = animation.sequenceStart + animation.FrameCountX * 2;
 
 
+
             // TODO:  Change player controls to fit your game
 
-            if (Keyboard.GetState().IsKeyDown(Keys.W))
+            if (Keyboard.GetState().IsKeyDown(moveUp))
             {
                 Velocity.Y = -Speed;
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.S))
+            else if (Keyboard.GetState().IsKeyDown(moveDown))
             {
                 Velocity.Y = +Speed;
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.A))
+            else if (Keyboard.GetState().IsKeyDown(moveLeft))
             {
                 Velocity.X = -Speed;
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.D))
+            else if (Keyboard.GetState().IsKeyDown(moveRight))
             {
                 Velocity.X = +Speed;
             }
@@ -70,19 +88,19 @@ namespace WeakSven
 
             // projectile directions
 
-            if (Keyboard.GetState().IsKeyDown(Keys.Y) && Game1.previousKeyboard.IsKeyUp(Keys.Y))
+            if (Keyboard.GetState().IsKeyDown(shootUp) && Game1.previousKeyboard.IsKeyUp(shootUp))
             {
                 bullets.Add(new Projectile(Position, -Vector2.UnitY));
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.H) && Game1.previousKeyboard.IsKeyUp(Keys.H))
+            else if (Keyboard.GetState().IsKeyDown(shootDown) && Game1.previousKeyboard.IsKeyUp(shootDown))
             {
                 bullets.Add(new Projectile(Position, Vector2.UnitY));
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.G) && Game1.previousKeyboard.IsKeyUp(Keys.G))
+            else if (Keyboard.GetState().IsKeyDown(shootLeft) && Game1.previousKeyboard.IsKeyUp(shootLeft))
             {
                 bullets.Add(new Projectile(Position, -Vector2.UnitX));
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.J) && Game1.previousKeyboard.IsKeyUp(Keys.J))
+            else if (Keyboard.GetState().IsKeyDown(shootRight) && Game1.previousKeyboard.IsKeyUp(shootRight))
             {
                 bullets.Add(new Projectile(Position, Vector2.UnitX));
             }
@@ -93,6 +111,14 @@ namespace WeakSven
             base.Update(gameTime);
 
         }
+
+        public void Die(Player player1, Player player2)
+        {
+          player1.Position = new Vector2(2, 25);
+          player2.Position = new Vector2(730, 410);
+          
+        }
+
         public override void Draw(SpriteBatch spriteBatch)
         {
             base.Draw(spriteBatch);

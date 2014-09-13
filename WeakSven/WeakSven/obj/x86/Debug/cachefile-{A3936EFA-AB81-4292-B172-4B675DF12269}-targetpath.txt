@@ -7,6 +7,10 @@ Content\Effects\ShootDown.xnb
 Content\Effects\ShootLeft.xnb
 Content\Effects\ShootRight.xnb
 Content\Effects\ShootUp.xnb
+Content\Backgrounds\Bars.xnb
+Content\Backgrounds\BioHazard.xnb
+Content\Backgrounds\Blocks.xnb
+Content\Backgrounds\Planets.xnb
 Content\Tiles\Bricks.xnb
 Content\Tiles\Concrete.xnb
 Content\Tiles\Chips.xnb
