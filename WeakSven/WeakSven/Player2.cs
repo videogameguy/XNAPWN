@@ -1,6 +1,8 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Collections.Generic;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 namespace WeakSven
@@ -8,7 +10,6 @@ namespace WeakSven
     // sealed
     class Player2 : InteractiveCharacter
     {
-        
         #region Singleton Stuff
         private static Player2 instance = null;
         public static Player2 Instance
@@ -29,6 +30,8 @@ namespace WeakSven
         public AudioSFX bing = new AudioSFX();
 
         public void SetName(string name) { Name = name; }
+        public List<Projectile> bullets = new List<Projectile>(10);
+
 
         public override void Load(ContentManager Content, string imageFile)
         {
@@ -41,6 +44,9 @@ namespace WeakSven
         {
             if (((int)gameTime.TotalGameTime.TotalSeconds) % 3 == 0)
                 bing.Play(gameTime);
+
+            animation.sequenceStart = 0;
+            animation.sequenceEnd = animation.sequenceStart + animation.FrameCountX * 2;
 
             // TODO:  Change player controls to fit your game         
                     
@@ -60,28 +66,41 @@ namespace WeakSven
             {
                 Velocity.X = +Speed;
             }
+            else
+                Velocity = Vector2.Zero;
 
             // projectile directions
+            
 
-            /*
-            if (Keyboard.GetState().IsKeyDown(Keys.Y) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad8))
+            if (Keyboard.GetState().IsKeyDown(Keys.NumPad8) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad8))
             {
-                bullets.Add(new Projectile(Position, -Vector2.UnitY));
+                bullets.Add(new Projectile(Position2, -Vector2.UnitY));
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.H) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad5))
+            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad5) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad5))
             {
-                bullets.Add(new Projectile(Position, Vector2.UnitY));
+                bullets.Add(new Projectile(Position2, Vector2.UnitY));
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.G) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad4))
+            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad4) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad4))
             {
-                bullets.Add(new Projectile(Position, -Vector2.UnitX));
+                bullets.Add(new Projectile(Position2, -Vector2.UnitX));
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.J) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad6))
+            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad6) && Game1.previousKeyboard.IsKeyUp(Keys.NumPad6))
             {
-                bullets.Add(new Projectile(Position, Vector2.UnitX));
+                bullets.Add(new Projectile(Position2, Vector2.UnitX));
             }
+
+            foreach (Projectile b in bullets)
+                b.Update(gameTime);
+
             base.Update(gameTime);
-            */
+            
+        }
+        public override void Draw(SpriteBatch spriteBatch)
+        {
+            base.Draw2(spriteBatch);
+
+            foreach (Projectile b in bullets)
+                b.Draw2(spriteBatch);
         }
     }
 }

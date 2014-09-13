@@ -14,16 +14,23 @@ namespace WeakSven
 
         public Projectile(Vector2 startPosition, Vector2 direction) 
         {
-            Speed = 35.0f;
+            Speed = 5.0f;
             Velocity = direction * Speed;
-
+            
             Position = startPosition;
-
+            Position2 = startPosition;
+            
             rect.X = (int)Position.X;
             rect.Y = (int)Position.Y;
             rect.Width = sharedAnimation.FrameWidth;
             rect.Height = sharedAnimation.FrameHeight;
+
+            rect2.X = (int)Position2.X;
+            rect2.Y = (int)Position2.Y;
+            rect2.Width = sharedAnimation.FrameWidth;
+            rect2.Height = sharedAnimation.FrameHeight;
         }
+
 
         public override void Load(ContentManager Content, string imageFile)
         {
@@ -38,7 +45,7 @@ namespace WeakSven
             sharedAnimation.FramesPerSec = 8;
 
 			sharedAnimation.SpriteSheet = Content.Load<Texture2D>(imageFile);
-     
+    
         }
 
         public override void Update(GameTime gameTime)
@@ -46,11 +53,17 @@ namespace WeakSven
             Position += Velocity;
             rect.X = (int)Position.X;
             rect.Y = (int)Position.Y;
+
+            Position2 += Velocity;
+            rect2.X = (int)Position2.X;
+            rect2.Y = (int)Position2.Y;
+            
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
             sharedAnimation.Draw(spriteBatch, Position);
+            sharedAnimation.Draw(spriteBatch, Position2);
         }
 
        

@@ -46,6 +46,7 @@ namespace WeakSven
             animation.sequenceStart = 0;
             animation.sequenceEnd = animation.sequenceStart + animation.FrameCountX * 2;
 
+
             // TODO:  Change player controls to fit your game
 
             if (Keyboard.GetState().IsKeyDown(Keys.W))

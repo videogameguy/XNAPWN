@@ -91,6 +91,10 @@ namespace WeakSven
 
             spriteBatch.Draw(spriteSheet, screenPos, sourcerect, Color.White,
                 Rotation, Vector2.Zero, Scale, SpriteEffects.None, Depth);
+
+            spriteBatch.Draw(spriteSheet, screenPos, sourcerect, Color.White,
+                Rotation, Vector2.Zero, Scale, SpriteEffects.None, Depth);
+
         }
     }
 }
