@@ -24,10 +24,10 @@ namespace WeakSven
         //    }
         //}
 
-        
+
         #endregion
 
-     
+
 
         public Player() : base() { }
         public Player(Vector2 startPosition) : base(startPosition) { }
@@ -104,7 +104,7 @@ namespace WeakSven
             {
                 bullets.Add(new Projectile(Position, Vector2.UnitX));
             }
-            
+
             foreach (Projectile b in bullets)
                 b.Update(gameTime);
 
@@ -114,9 +114,9 @@ namespace WeakSven
 
         public void Die(Player player1, Player player2)
         {
-          player1.Position = new Vector2(2, 25);
-          player2.Position = new Vector2(730, 410);
-          
+            player1.Position = new Vector2(2, 25);
+            player2.Position = new Vector2(730, 410);
+
         }
 
         public override void Draw(SpriteBatch spriteBatch)

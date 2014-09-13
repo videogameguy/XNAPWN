@@ -64,6 +64,27 @@ namespace WeakSven
         {
             CheckBullets(player1, player2);
             CheckBullets(player2, player1);
+
+            foreach (Tile t in Tiles)
+            {
+                if (t.Rect.Intersects(player1.rect))
+                {
+                    player1.MoveBack();
+                    break;
+
+                }
+
+            }
+            foreach (Tile t in Tiles)
+            {
+                if (t.Rect.Intersects(player2.rect))
+                {
+                    player2.MoveBack();
+                    break;
+
+                }
+
+            }
         }
 
         private void CheckBullets(Player attacker, Player other)
@@ -78,6 +99,8 @@ namespace WeakSven
 
             }
         }
+
+
 
         public void Load(int level, ContentManager Content)
         {
@@ -102,13 +125,13 @@ namespace WeakSven
                 for (int i = 0; i < line.Length; i++)
                 {
                     if (Textures.ContainsKey(line[i]))
-                       Tiles.Add(new Tile(Textures[line[i]], i * 25, y));
+                        Tiles.Add(new Tile(Textures[line[i]], i * 25, y));
                 }
 
                 y += 25;
             }
 
-            
+
         }
 
 
@@ -118,7 +141,7 @@ namespace WeakSven
             spriteBatch.Draw(backgroundImage, rect, Color.White);
             foreach (Tile t in Tiles)
                 t.Draw(spriteBatch);
-            
+
         }
     }
 }
