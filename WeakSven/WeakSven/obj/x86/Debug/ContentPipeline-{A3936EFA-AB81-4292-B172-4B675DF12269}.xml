@@ -244,6 +244,15 @@
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Audio\SFX\bing.xnb</Output>
       <Time>2014-09-13T14:13:48.7201184-07:00</Time>
     </Item>
+    <Item>
+      <Source>Segoe.spritefont</Source>
+      <Name>Segoe</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Segoe.xnb</Output>
+      <Time>2014-09-13T15:20:36.6814624-07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{A3936EFA-AB81-4292-B172-4B675DF12269}</ContentProjectGUID>

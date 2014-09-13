@@ -1,6 +1,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using XNA_GUI;
 
 namespace WeakSven
 {
@@ -8,6 +9,8 @@ namespace WeakSven
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        Button button = new Button(new Rectangle(0, 0, 200, 50));
 
         public Player player1 = new Player(new Vector2(2, 25));
         public Player player2 = new Player(new Vector2(730, 410));
@@ -43,6 +46,10 @@ namespace WeakSven
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            UIManager.Init(GraphicsDevice, Content.Load<SpriteFont>("Segoe"));
+            button.Text = "Click me!";
+
+            button.onClick += button_onClick;
 
             level.LoadTextures(Content);
             level.Load(1,Content);
@@ -53,6 +60,11 @@ namespace WeakSven
             Projectile.StaticLoad(Content, "Effects/ShootDown");
             Projectile.StaticLoad(Content, "Effects/ShootLeft");
             Projectile.StaticLoad(Content, "Effects/ShootRight");
+        }
+
+        void button_onClick(Component sender)
+        {
+            ((Button)sender).Text = "Clicked!";
         }
 
         protected override void UnloadContent() { }
@@ -69,6 +81,7 @@ namespace WeakSven
 
 			if (Keyboard.GetState().IsKeyDown(Keys.Escape))
 				this.Exit();
+            UIManager.Update();
 
             player1.Update(gameTime);
             player2.Update(gameTime);
@@ -106,7 +119,7 @@ namespace WeakSven
 			//Player.Instance.Draw(spriteBatch);
             //Player2.Instance.Draw2(spriteBatch);
 
-            
+            UIManager.Draw(spriteBatch);
 
 			spriteBatch.End();
             base.Draw(gameTime);
