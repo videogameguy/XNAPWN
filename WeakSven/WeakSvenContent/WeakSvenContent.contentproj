@@ -113,6 +113,11 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
+    <Compile Include="Button\Button.png">
+      <Name>Button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
     <Content Include="Levels\Level2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <Name>Level2</Name>
@@ -194,22 +199,22 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Level_Images\Level1Image.JPG">
+    <Compile Include="Level_Images\Level1Image.png">
       <Name>Level1Image</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Level_Images\Level2Image.JPG">
+    <Compile Include="Level_Images\Level2Image.png">
       <Name>Level2Image</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Level_Images\Level3Image.JPG">
+    <Compile Include="Level_Images\Level3Image.png">
       <Name>Level3Image</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Level_Images\Level4Image.JPG">
+    <Compile Include="Level_Images\Level4Image.png">
       <Name>Level4Image</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
