@@ -56,8 +56,14 @@ namespace WeakSven
             level.LoadTextures(Content);
             level.Load(1, Content);
 
+<<<<<<< HEAD
+			player1.Load(Content, "Characters/Player");
+            player2.Load(Content, "Characters/Player2");
+            enemy.Load(Content, "Enemies/Vile(Enemy)");
+=======
 			player1.Load(Content, "Characters/Zero");
             player2.Load(Content, "Characters/MegamanX");
+>>>>>>> f3220dad1776d0a795fa8afa56cf6e333dc6dd9c
             Projectile.StaticLoad(Content, new string[] { "Effects/SkullUp", "Effects/SkullDown", "Effects/SkullLeft", "Effects/SkullRight" });
                        
         }
@@ -82,6 +88,7 @@ namespace WeakSven
 
             player1.Update(gameTime);
             player2.Update(gameTime);
+            enemy.Update(gameTime);
             level.Update(gameTime, player1, player2);
 
             //Singleton Stuff
@@ -114,6 +121,7 @@ namespace WeakSven
 
             player1.Draw(spriteBatch);
             player2.Draw(spriteBatch);
+            enemy.Draw(spriteBatch);
 
             //Stingleton Stuff
 			//Player.Instance.Draw(spriteBatch);

@@ -65,6 +65,8 @@ namespace WeakSven
             CheckBullets(player1, player2);
             CheckBullets(player2, player1);
 
+            
+
             foreach (Tile t in Tiles)
             {
                 if (t.Rect.Intersects(player1.rect))
@@ -126,6 +128,9 @@ namespace WeakSven
 
             }
         }
+
+
+
 
 
 

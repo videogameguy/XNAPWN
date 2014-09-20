@@ -1,9 +1,3 @@
-C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\bin\x86\Debug\XNA_GUI.dll
-C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\bin\x86\Debug\XNA_GUI.pdb
-C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\obj\x86\Debug\XNA_GUI.csprojResolveAssemblyReference.cache
-C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\obj\x86\Debug\XNA_GUI.dll
-C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\obj\x86\Debug\XNA_GUI.pdb
 C:\Users\Brandon\Documents\GitHub\XNAPWN\XNA_GUI\bin\x86\Debug\XNA_GUI.dll
 C:\Users\Brandon\Documents\GitHub\XNAPWN\XNA_GUI\bin\x86\Debug\XNA_GUI.pdb
 C:\Users\Brandon\Documents\GitHub\XNAPWN\XNA_GUI\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
@@ -14,4 +8,13 @@ C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\XNA_GUI\bin\x86\De
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\XNA_GUI\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\XNA_GUI\obj\x86\Debug\XNA_GUI.dll
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\XNA_GUI\obj\x86\Debug\XNA_GUI.pdb
+<<<<<<< HEAD
+C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\bin\x86\Debug\XNA_GUI.dll
+C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\bin\x86\Debug\XNA_GUI.pdb
+C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\obj\x86\Debug\XNA_GUI.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\obj\x86\Debug\XNA_GUI.dll
+C:\Users\student\Documents\GitHub\XNAPWN\XNA_GUI\obj\x86\Debug\XNA_GUI.pdb
+=======
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\XNA_GUI\obj\x86\Debug\XNA_GUI.csprojResolveAssemblyReference.cache
+>>>>>>> f3220dad1776d0a795fa8afa56cf6e333dc6dd9c
