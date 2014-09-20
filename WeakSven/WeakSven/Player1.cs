@@ -114,8 +114,8 @@ namespace WeakSven
 
         public void Die(Player player1, Player player2)
         {
-            player1.Position = new Vector2(2, 25);
-            player2.Position = new Vector2(730, 410);
+            player1.Position = new Vector2(25, 50);
+            player2.Position = new Vector2(700, 350);
 
         }
 

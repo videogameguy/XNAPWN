@@ -85,6 +85,33 @@ namespace WeakSven
                 }
 
             }
+
+            foreach (Tile t in Tiles)
+            {
+                for (int i = 0; i < player1.Bullets.Count; i++)
+                {
+                    if (player1.Bullets[i].rect.Intersects(t.Rect))
+                    {
+                        player1.Bullets.RemoveAt(i--);
+                    }
+                }
+                
+
+            }
+
+            foreach (Tile t in Tiles)
+            {
+                for (int i = 0; i < player2.Bullets.Count; i++)
+                {
+                    if (player2.Bullets[i].rect.Intersects(t.Rect))
+                    {
+                        player2.Bullets.RemoveAt(i--);
+                    }
+                }
+
+
+            }
+
         }
 
         private void CheckBullets(Player attacker, Player other)
