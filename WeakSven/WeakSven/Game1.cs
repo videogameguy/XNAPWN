@@ -10,11 +10,12 @@ namespace WeakSven
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        ImageButton button = new ImageButton(new Vector2(25, 25));     
+        //ImageButton button = new ImageButton(new Vector2(25, 25));     
 
         public Player player1 = new Player(new Vector2(300, 75));
         public Player player2 = new Player(new Vector2(500, 350));
-        //public Enemy enemy = new Enemy(new Vector2(400, 60));
+        public Enemy enemy = new Enemy(new Vector2(300, 700));
+        public Enemy enemy2 = new Enemy(new Vector2(500,-300));
 
         public static KeyboardState previousKeyboard;
 
@@ -55,14 +56,13 @@ namespace WeakSven
             level.LoadTextures(Content);
             level.Load(1,Content);
 
-<<<<<<< HEAD
-			player1.Load(Content, "Characters/Player");
-            player2.Load(Content, "Characters/Player2");
-            enemy.Load(Content, "Enemies/Vile(Enemy)");
-=======
+
 			player1.Load(Content, "Characters/Zero");
             player2.Load(Content, "Characters/MegamanX");
->>>>>>> f3220dad1776d0a795fa8afa56cf6e333dc6dd9c
+            enemy.Load(Content, "Characters/Sigma");
+            enemy2.Load(Content, "Characters/Sigma");
+
+
             Projectile.StaticLoad(Content, new string[] { "Effects/SkullUp", "Effects/SkullDown", "Effects/SkullLeft", "Effects/SkullRight" });
         }
 
@@ -76,8 +76,19 @@ namespace WeakSven
         protected override void Update(GameTime gameTime)
         {
 
+            enemy.EnemyFollow(player1);
+            if (enemy.rect.Intersects(player1.rect))
+            {
+                player1.enemyDeath(player1, enemy);
 
+            }
 
+            enemy2.EnemyFollow(player2);
+            if (enemy2.rect.Intersects(player2.rect))
+            {
+                player2.enemyDeath2(player2, enemy2);
+
+            }
           
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
@@ -91,6 +102,7 @@ namespace WeakSven
             player1.Update(gameTime);
             player2.Update(gameTime);
             enemy.Update(gameTime);
+            enemy2.Update(gameTime);
             level.Update(gameTime, player1, player2);
 
             //Singleton Stuff
@@ -119,13 +131,14 @@ namespace WeakSven
             GraphicsDevice.Clear(Color.Black);
 			spriteBatch.Begin();
 
-            ImageButton.Draw("Level1Image", Rectangle, Color.White);
+            //ImageButton.Draw("Level1Image", Rectangle, Color.White);
 
             level.Draw(spriteBatch);
 
             player1.Draw(spriteBatch);
             player2.Draw(spriteBatch);
             enemy.Draw(spriteBatch);
+            enemy2.Draw(spriteBatch);
 
             //Stingleton Stuff
 			//Player.Instance.Draw(spriteBatch);

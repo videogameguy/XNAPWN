@@ -123,7 +123,14 @@ namespace WeakSven
         public void enemyDeath(Player player,Enemy enemy)
         {
             player.Position = new Vector2(25, 50);
-            enemy.Position = new Vector2(500, 500);
+            enemy.Position = new Vector2(300, 700);
+
+        }
+
+        public void enemyDeath2(Player player, Enemy enemy)
+        {
+            player.Position = new Vector2(700, 350);
+            enemy.Position = new Vector2(500, -300);
 
         }
 

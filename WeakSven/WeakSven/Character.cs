@@ -45,12 +45,12 @@ namespace WeakSven
 
            // animation.SpriteSheet = Content.Load<Texture2D>(imageFile);
 
-            Content.Load<Texture2D>(imageFile);
+            img=Content.Load<Texture2D>(imageFile);
 
             rect.X = (int)Position.X;
             rect.Y = (int)Position.Y;
-            //rect.Width = 
-            //rect.Height =
+            rect.Width = img.Width;
+            rect.Height = img.Height;
 
 
         }
@@ -82,7 +82,7 @@ namespace WeakSven
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(img, rect, Color.Black);
+            spriteBatch.Draw(img, rect, Color.Azure);
         }
 
 

@@ -9,18 +9,19 @@ using XNA_GUI;
 
 namespace WeakSven
 {
-    public class ImageButton : Button
-    {
-        Texture2D image = null;
+    //    public class ImageButton : Button
+    //    {
+    //        Texture2D image = null;
 
-        public override void Draw(SpriteBatch spriteBatch)
-        {
-            spriteBatch.Draw(image, Rect, Color.White);
-        }
+    //        public override void Draw(SpriteBatch spriteBatch)
+    //        {
+    //            spriteBatch.Draw(image, Rect, Color.White);
+    //        }
 
-        public void Load(ContentManager content, string imageName)
-        {
-            image = content.Load<Texture2D>(imageName);
-        }
-    }
+    //        public void Load(ContentManager content, string imageName)
+    //        {
+    //            image = content.Load<Texture2D>(imageName);
+    //        }
+    //    }
+    //}
 }

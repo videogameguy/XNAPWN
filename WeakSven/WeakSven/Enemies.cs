@@ -10,12 +10,10 @@ namespace WeakSven
 {
     public class Enemy : Character
     {
-        Vector2 Destination = new Vector2();
-        Texture2D img = null;
 
         Player target = null;
 
-        public Enemy() : base() { }
+        public Enemy() : base() { Speed = 0.0001f; }
 
         public Enemy(Vector2 startPosition) : base(startPosition) { }
 
@@ -26,8 +24,9 @@ namespace WeakSven
 
         public override void Load(ContentManager Content, string imageFile)
         {
-            base.Load(Content, imageFile);
-
+            img=Content.Load<Texture2D>(imageFile);
+            rect.Width = img.Width;
+            rect.Height = img.Height;
             //bing.Sound = Content.Load<SoundEffect>("Audio/SFX/bing");
         }
 
@@ -37,15 +36,15 @@ namespace WeakSven
             {
                 Velocity = (target.Position - Position);
                 Velocity.Normalize();
-                Velocity *= Speed;
+                Velocity *= Speed / 2;
             }
 
             base.Update(gameTime);
         }
 
-        public virtual void Draw(SpriteBatch spriteBatch)
+        public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(img, rect, Color.Black);
+            spriteBatch.Draw(img, rect, Color.Azure);
         }
 
     }
