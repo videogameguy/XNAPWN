@@ -83,6 +83,8 @@ namespace WeakSven
             player1.Update(gameTime);
             player2.Update(gameTime);
             level.Update(gameTime, player1, player2);
+
+            //Singleton Stuff
 			//Player.Instance.Update(gameTime);
             //Player2.Instance.Update(gameTime);
            
@@ -113,6 +115,7 @@ namespace WeakSven
             player1.Draw(spriteBatch);
             player2.Draw(spriteBatch);
 
+            //Stingleton Stuff
 			//Player.Instance.Draw(spriteBatch);
             //Player2.Instance.Draw2(spriteBatch);
 
