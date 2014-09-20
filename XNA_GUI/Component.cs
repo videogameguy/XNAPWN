@@ -27,6 +27,11 @@ namespace XNA_GUI
             UIManager.Add(this);
         }
 
+        public void Unload()
+        {
+            UIManager.Unload(this);
+        }
+
         public void Update()
         {
             MouseState mouse = Mouse.GetState();

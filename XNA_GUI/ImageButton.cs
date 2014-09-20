@@ -7,16 +7,19 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using XNA_GUI;
 
-namespace WeakSven
+namespace XNA_GUI
 {
     public class ImageButton : Button
     {
         Texture2D image = null;
 
+        public ImageButton(Rectangle whereItsAt) : base(whereItsAt) { }
+
         public override void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(image, Rect, Color.White);
         }
+
 
         public void Load(ContentManager content, string imageName)
         {

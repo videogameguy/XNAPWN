@@ -42,7 +42,7 @@ namespace WeakSven
             Textures.Add('g', Content.Load<Texture2D>("Tiles/GreenCar"));
             Textures.Add('h', Content.Load<Texture2D>("Tiles/YellowCar"));
             Textures.Add('j', Content.Load<Texture2D>("Tiles/Log"));
-            Textures.Add('k', Content.Load<Texture2D>("Tiles/Ammo"));
+            Textures.Add('k', Content.Load<Texture2D>("Tiles/Skull"));
         }
 
         private void Unload()
@@ -165,10 +165,11 @@ namespace WeakSven
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(backgroundImage, rect, Color.White);
+            if (backgroundImage != null)
+                spriteBatch.Draw(backgroundImage, rect, Color.White);
+
             foreach (Tile t in Tiles)
                 t.Draw(spriteBatch);
-
         }
     }
 }

@@ -15,6 +15,7 @@ namespace XNA_GUI
         public static Texture2D square { get; private set; }
 
         private static List<Component> components = new List<Component>();
+        private static List<Component> removes = new List<Component>();
         
         private UIManager() { }
 
@@ -34,6 +35,14 @@ namespace XNA_GUI
         {
             foreach (Component c in components)
                 c.Update();
+
+            if (removes.Count > 0)
+            {
+                foreach (Component r in removes)
+                    components.Remove(r);
+
+                removes.Clear();
+            }
         }
 
         public static void Draw(SpriteBatch spriteBatch)
@@ -42,9 +51,9 @@ namespace XNA_GUI
                 c.Draw(spriteBatch);
         }
 
-        void Unload(Component c)
+        public static void Unload(Component c)
         {
-            components.Remove(c);
+            removes.Add(c);
         }
     }
 }

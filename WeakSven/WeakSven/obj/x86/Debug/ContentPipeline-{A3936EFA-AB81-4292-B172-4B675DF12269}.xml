@@ -227,15 +227,6 @@
       <Time>2014-09-20T07:21:27.8103307-07:00</Time>
     </Item>
     <Item>
-      <Source>Tiles\Ammo.png</Source>
-      <Name>Tiles\Ammo</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Ammo.xnb</Output>
-      <Time>2014-09-20T07:21:27.8073205-07:00</Time>
-    </Item>
-    <Item>
       <Source>Level_Images\Level1Image.png</Source>
       <Name>Level_Images\Level1Image</Name>
       <Importer>TextureImporter</Importer>
@@ -269,7 +260,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level4Image.xnb</Output>
-      <Time>2014-09-20T07:21:27.8043103-07:00</Time>
+      <Time>2014-09-20T14:38:58.7581971-07:00</Time>
     </Item>
     <Item>
       <Source>Audio\SFX\bing.wav</Source>
@@ -296,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\MegamanX.xnb</Output>
-      <Time>2014-09-20T10:28:51.5567051-07:00</Time>
+      <Time>2014-09-20T14:19:51.4458432-07:00</Time>
     </Item>
     <Item>
       <Source>Characters\Sigma.png</Source>
@@ -305,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Sigma.xnb</Output>
-      <Time>2014-09-20T10:28:51.5723137-07:00</Time>
+      <Time>2014-09-20T14:16:12.342121-07:00</Time>
     </Item>
     <Item>
       <Source>Characters\Zero.png</Source>
@@ -314,7 +305,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Zero.xnb</Output>
-      <Time>2014-09-20T10:28:51.5567051-07:00</Time>
+      <Time>2014-09-20T14:13:45.6593823-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Skull.png</Source>
+      <Name>Tiles\Skull</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Skull.xnb</Output>
+      <Time>2014-09-20T14:27:32.8053968-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
