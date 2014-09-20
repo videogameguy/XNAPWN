@@ -41,5 +41,10 @@ namespace XNA_GUI
             foreach (Component c in components)
                 c.Draw(spriteBatch);
         }
+
+        void Unload(Component c)
+        {
+            components.Remove(c);
+        }
     }
 }

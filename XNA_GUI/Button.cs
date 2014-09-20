@@ -25,13 +25,12 @@ namespace XNA_GUI
                     Rect.X + ((Rect.Width / 2) - (widthHeight.X / 2)),
                     Rect.Y + ((Rect.Height / 2) - (widthHeight.Y / 2))
                     );
-
             }
         }
 
         public Button(Rectangle whereItsAt) : base(whereItsAt) { }
 
-        public override void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(UIManager.square, Rect, Color.White);
             spriteBatch.DrawString(UIManager.font, text, textPosition, Color.Black);

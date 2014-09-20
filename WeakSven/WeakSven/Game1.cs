@@ -10,7 +10,7 @@ namespace WeakSven
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        //Button button = new Button(new Rectangle(0, 0, 200, 50));
+        ImageButton button = new ImageButton(new Vector2(25, 25));     
 
         public Player player1 = new Player(new Vector2(300, 75));
         public Player player2 = new Player(new Vector2(500, 350));
@@ -111,6 +111,8 @@ namespace WeakSven
           
             GraphicsDevice.Clear(Color.Black);
 			spriteBatch.Begin();
+
+            ImageButton.Draw("Level1Image", Rectangle, Color.White);
 
             level.Draw(spriteBatch);
 
