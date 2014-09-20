@@ -34,6 +34,7 @@ namespace WeakSven
         public AudioSFX bing = new AudioSFX();
 
         public void SetName(string name) { Name = name; }
+
         private List<Projectile> bullets = new List<Projectile>(10);
 
         public List<Projectile> Bullets { get { return bullets; } }
@@ -60,8 +61,8 @@ namespace WeakSven
             if (((int)gameTime.TotalGameTime.TotalSeconds) % 3 == 0)
                 bing.Play(gameTime);
 
-            animation.sequenceStart = 0;
-            animation.sequenceEnd = animation.sequenceStart + animation.FrameCountX * 2;
+            //animation.sequenceStart = 0;
+            //animation.sequenceEnd = animation.sequenceStart + animation.FrameCountX * 2;
 
 
 
@@ -116,6 +117,13 @@ namespace WeakSven
         {
             player1.Position = new Vector2(25, 50);
             player2.Position = new Vector2(700, 350);
+
+        }
+
+        public void enemyDeath(Player player,Enemy enemy)
+        {
+            player.Position = new Vector2(25, 50);
+            enemy.Position = new Vector2(500, 500);
 
         }
 
