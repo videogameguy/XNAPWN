@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\MegamanX.xnb</Output>
-      <Time>2014-09-20T14:40:06.2991806-07:00</Time>
+      <Time>2014-09-20T15:12:12.0607684-07:00</Time>
     </Item>
     <Item>
       <Source>Characters\Sigma.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Sigma.xnb</Output>
-      <Time>2014-09-20T14:40:06.3021806-07:00</Time>
+      <Time>2014-09-20T15:12:12.0763667-07:00</Time>
     </Item>
     <Item>
       <Source>Characters\Zero.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Zero.xnb</Output>
-      <Time>2014-09-20T14:40:06.3031806-07:00</Time>
+      <Time>2014-09-20T15:12:12.0763667-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Bricks.png</Source>
