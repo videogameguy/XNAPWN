@@ -14,6 +14,7 @@ namespace WeakSven
 
         public Player player1 = new Player(new Vector2(300, 75));
         public Player player2 = new Player(new Vector2(500, 350));
+        public Enemy enemy = new Enemy(new Vector2(400, 60));
 
         public static KeyboardState previousKeyboard;
 
@@ -61,7 +62,7 @@ namespace WeakSven
 
         void button_onClick(Component sender)
         {
-            ((Button)sender).Text = "Clicked!";
+           // ((Button)sender).Text = "Clicked!";
         }
 
         protected override void UnloadContent() { }
@@ -69,7 +70,7 @@ namespace WeakSven
         protected override void Update(GameTime gameTime)
         {
 
-           // Player1.Instance.rect.Intersects
+
 
           
 
@@ -78,6 +79,7 @@ namespace WeakSven
 
 			if (Keyboard.GetState().IsKeyDown(Keys.Escape))
 				this.Exit();
+
             UIManager.Update();
 
             player1.Update(gameTime);
@@ -93,8 +95,8 @@ namespace WeakSven
                     previousKeyboard.IsKeyUp(Keys.Space))
                 {
                     level.Next(Content);
-                    player1.Position = new Vector2(300, 75);
-                    player2.Position = new Vector2(500, 525);
+                    player1.Position = new Vector2(25, 50);
+                    player2.Position = new Vector2(700, 350);
                 }
            
 

@@ -7,13 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Player.xnb</Output>
-      <Time>2014-09-20T09:27:47.8250457-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Player.xnb</Output>
-      <Time>2014-09-20T07:21:27.7982899-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.301856-07:00</Time>
     </Item>
     <Item>
       <Source>Characters\Player2.png</Source>
@@ -21,13 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Player2.xnb</Output>
-      <Time>2014-09-20T09:27:47.8230465-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Player2.xnb</Output>
-      <Time>2014-09-20T07:21:27.7972865-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3008563-07:00</Time>
     </Item>
     <Item>
       <Source>Characters\Vile(Enemy).png</Source>
@@ -35,13 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Vile(Enemy).xnb</Output>
-      <Time>2014-09-20T09:27:47.8240461-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Vile(Enemy).xnb</Output>
-      <Time>2014-09-20T07:21:27.7972865-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3008563-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Block.png</Source>
@@ -49,13 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Block.xnb</Output>
-      <Time>2014-09-20T09:27:47.8710273-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Block.xnb</Output>
-      <Time>2014-09-20T07:21:27.8073205-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3188509-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Grass.png</Source>
@@ -63,13 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Grass.xnb</Output>
-      <Time>2014-09-20T09:27:47.8750257-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Grass.xnb</Output>
-      <Time>2014-09-20T07:21:27.8093273-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.32185-07:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\Bars.png</Source>
@@ -77,13 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Backgrounds\Bars.xnb</Output>
-      <Time>2014-09-20T09:27:47.8100517-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Backgrounds\Bars.xnb</Output>
-      <Time>2014-09-20T07:21:27.7902627-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.2938584-07:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\BioHazard.png</Source>
@@ -91,13 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Backgrounds\BioHazard.xnb</Output>
-      <Time>2014-09-20T09:27:47.8130505-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Backgrounds\BioHazard.xnb</Output>
-      <Time>2014-09-20T07:21:27.7922695-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.2948581-07:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\Blocks.png</Source>
@@ -105,13 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Backgrounds\Blocks.xnb</Output>
-      <Time>2014-09-20T09:27:47.8160493-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Backgrounds\Blocks.xnb</Output>
-      <Time>2014-09-20T07:21:27.7932729-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.2968575-07:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\Planets.png</Source>
@@ -119,13 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Backgrounds\Planets.xnb</Output>
-      <Time>2014-09-20T09:27:47.8200477-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Backgrounds\Planets.xnb</Output>
-      <Time>2014-09-20T07:21:27.7952797-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.2988569-07:00</Time>
     </Item>
     <Item>
       <Source>Effects\SkullDown.png</Source>
@@ -133,13 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullDown.xnb</Output>
-      <Time>2014-09-20T09:27:47.8270449-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullDown.xnb</Output>
-      <Time>2014-09-20T07:21:27.7992933-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3028557-07:00</Time>
     </Item>
     <Item>
       <Source>Effects\SkullLeft.png</Source>
@@ -147,13 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullLeft.xnb</Output>
-      <Time>2014-09-20T09:27:47.8280445-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullLeft.xnb</Output>
-      <Time>2014-09-20T07:21:27.7992933-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3028557-07:00</Time>
     </Item>
     <Item>
       <Source>Effects\SkullRight.png</Source>
@@ -161,13 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullRight.xnb</Output>
-      <Time>2014-09-20T09:27:47.8420389-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullRight.xnb</Output>
-      <Time>2014-09-20T07:21:27.8002967-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.311853-07:00</Time>
     </Item>
     <Item>
       <Source>Effects\SkullUp.png</Source>
@@ -175,13 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullUp.xnb</Output>
-      <Time>2014-09-20T09:27:47.8430385-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Effects\SkullUp.xnb</Output>
-      <Time>2014-09-20T07:21:27.8013001-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3128527-07:00</Time>
     </Item>
     <Item>
       <Source>Button\Button.png</Source>
@@ -189,13 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Button\Button.xnb</Output>
-      <Time>2014-09-20T09:27:47.8210473-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Button\Button.xnb</Output>
-      <Time>2014-09-20T07:21:27.7962831-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.2988569-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Bricks.png</Source>
@@ -203,13 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Bricks.xnb</Output>
-      <Time>2014-09-20T09:27:47.8720269-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Bricks.xnb</Output>
-      <Time>2014-09-20T07:21:27.8083239-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3198506-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Concrete.png</Source>
@@ -217,13 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Concrete.xnb</Output>
-      <Time>2014-09-20T09:27:47.8730265-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Concrete.xnb</Output>
-      <Time>2014-09-20T07:21:27.8093273-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3208503-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Chips.png</Source>
@@ -231,13 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Chips.xnb</Output>
-      <Time>2014-09-20T09:27:47.8730265-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Chips.xnb</Output>
-      <Time>2014-09-20T07:21:27.8083239-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3208503-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Pizza.png</Source>
@@ -245,13 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Pizza.xnb</Output>
-      <Time>2014-09-20T09:27:47.8810233-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Pizza.xnb</Output>
-      <Time>2014-09-20T07:21:27.8113341-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3228497-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Popcorn.png</Source>
@@ -259,13 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Popcorn.xnb</Output>
-      <Time>2014-09-20T09:27:47.8820229-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Popcorn.xnb</Output>
-      <Time>2014-09-20T07:21:27.8113341-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3228497-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Steak.png</Source>
@@ -273,13 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Steak.xnb</Output>
-      <Time>2014-09-20T09:27:47.8830225-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Steak.xnb</Output>
-      <Time>2014-09-20T07:21:27.8123375-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3238494-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Waffles.png</Source>
@@ -287,13 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Waffles.xnb</Output>
-      <Time>2014-09-20T09:27:47.8840221-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Waffles.xnb</Output>
-      <Time>2014-09-20T07:21:27.8123375-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3238494-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\RedCar.png</Source>
@@ -301,13 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\RedCar.xnb</Output>
-      <Time>2014-09-20T09:27:47.8820229-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\RedCar.xnb</Output>
-      <Time>2014-09-20T07:21:27.8113341-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3238494-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\BlueCar.png</Source>
@@ -315,13 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\BlueCar.xnb</Output>
-      <Time>2014-09-20T09:27:47.8710273-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\BlueCar.xnb</Output>
-      <Time>2014-09-20T07:21:27.8083239-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3198506-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\GreenCar.png</Source>
@@ -329,13 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\GreenCar.xnb</Output>
-      <Time>2014-09-20T09:27:47.8750257-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\GreenCar.xnb</Output>
-      <Time>2014-09-20T07:21:27.8103307-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.32185-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\YellowCar.png</Source>
@@ -343,13 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\YellowCar.xnb</Output>
-      <Time>2014-09-20T09:27:47.8840221-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\YellowCar.xnb</Output>
-      <Time>2014-09-20T07:21:27.8123375-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3248491-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Log.png</Source>
@@ -357,13 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Log.xnb</Output>
-      <Time>2014-09-20T09:27:47.8760253-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Log.xnb</Output>
-      <Time>2014-09-20T07:21:27.8103307-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3228497-07:00</Time>
     </Item>
     <Item>
       <Source>Tiles\Ammo.png</Source>
@@ -371,13 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Ammo.xnb</Output>
-      <Time>2014-09-20T09:27:47.8700277-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Ammo.xnb</Output>
-      <Time>2014-09-20T07:21:27.8073205-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3188509-07:00</Time>
     </Item>
     <Item>
       <Source>Level_Images\Level1Image.png</Source>
@@ -385,13 +250,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level1Image.xnb</Output>
-      <Time>2014-09-20T09:27:47.8450377-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level1Image.xnb</Output>
-      <Time>2014-09-20T07:21:27.8023035-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3138524-07:00</Time>
     </Item>
     <Item>
       <Source>Level_Images\Level2Image.png</Source>
@@ -399,13 +259,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level2Image.xnb</Output>
-      <Time>2014-09-20T09:27:47.8460373-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level2Image.xnb</Output>
-      <Time>2014-09-20T07:21:27.8023035-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3148521-07:00</Time>
     </Item>
     <Item>
       <Source>Level_Images\Level3Image.png</Source>
@@ -413,13 +268,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level3Image.xnb</Output>
-      <Time>2014-09-20T09:27:47.8630305-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level3Image.xnb</Output>
-      <Time>2014-09-20T07:21:27.8033069-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3158518-07:00</Time>
     </Item>
     <Item>
       <Source>Level_Images\Level4Image.png</Source>
@@ -427,13 +277,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level4Image.xnb</Output>
-      <Time>2014-09-20T09:27:47.8650297-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Level_Images\Level4Image.xnb</Output>
-      <Time>2014-09-20T07:21:27.8043103-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3158518-07:00</Time>
     </Item>
     <Item>
       <Source>Audio\SFX\bing.wav</Source>
@@ -441,13 +286,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Audio\SFX\bing.xnb</Output>
-      <Time>2014-09-20T09:27:47.8060533-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Audio\SFX\bing.xnb</Output>
-      <Time>2014-09-20T07:21:27.7882559-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.291859-07:00</Time>
     </Item>
     <Item>
       <Source>Segoe.spritefont</Source>
@@ -455,13 +295,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-<<<<<<< HEAD
       <Output>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Segoe.xnb</Output>
-      <Time>2014-09-20T09:27:47.8690281-07:00</Time>
-=======
-      <Output>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Segoe.xnb</Output>
-      <Time>2014-09-20T07:21:27.8063171-07:00</Time>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
+      <Time>2014-09-20T10:00:44.3178512-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -470,17 +305,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-<<<<<<< HEAD
       <RootDirectory>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSvenContent\</RootDirectory>
       <LoggerRootDirectory>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\</LoggerRootDirectory>
       <IntermediateDirectory>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\</IntermediateDirectory>
       <OutputDirectory>C:\Users\student\Documents\GitHub\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\</OutputDirectory>
-=======
-      <RootDirectory>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSvenContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\</OutputDirectory>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
     </Settings>
     <Assemblies>
       <Assembly>
@@ -509,11 +337,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-<<<<<<< HEAD
         <Value>2014-09-20T09:03:39.4676385-07:00</Value>
-=======
-        <Value>2014-09-20T07:47:42.8895684-07:00</Value>
->>>>>>> b4cfcb7bde693d99bfa07d04171f594af8d53c3a
       </Assembly>
     </Assemblies>
   </Asset>
