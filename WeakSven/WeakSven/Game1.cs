@@ -24,8 +24,7 @@ namespace WeakSven
 
         public static KeyboardState previousKeyboard;
 
-        Level level = new Level();
-
+        Level level = null;
 
         public Game1()
         {
@@ -52,16 +51,17 @@ namespace WeakSven
 
         protected override void LoadContent()
         {
+            level = new Level(Content);
             spriteBatch = new SpriteBatch(GraphicsDevice);
             //UIManager.Init(GraphicsDevice, Content.Load<SpriteFont>("Segoe"));
             //button.Text = "Click me!";
 
             //button.onClick += button_onClick;
 
-            mainMenu.Load(Content, level);
+            mainMenu.Load(Content, level); 
 
             level.LoadTextures(Content);
-            level.Load(1, Content);
+            level.Load(1);
 
 
 			player1.Load(Content, "Characters/Zero");
@@ -69,9 +69,9 @@ namespace WeakSven
             enemy.Load(Content, "Characters/Sigma");
             enemy2.Load(Content, "Characters/Sigma");
 
-
             Projectile.StaticLoad(Content, new string[] { "Effects/SkullUp", "Effects/SkullDown", "Effects/SkullLeft", "Effects/SkullRight" });
-                       
+
+            level.mainMenu = mainMenu;
         }
 
         void button_onClick(Component sender)

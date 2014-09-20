@@ -24,7 +24,7 @@ namespace WeakSven
             b1.onClick += delegate(Component sender)
             {
                 // Go to level i + 1
-                level.Load(2, Content);
+                level.Load(2);
                 Unload();
             };
             components.Add(b1);
@@ -34,7 +34,7 @@ namespace WeakSven
             b2.onClick += delegate(Component sender)
             {
                 // Go to level i + 1
-                level.Load(3, Content);
+                level.Load(3);
                 Unload();
             };
             components.Add(b2);
@@ -44,7 +44,7 @@ namespace WeakSven
             b3.onClick += delegate(Component sender)
             {
                 // Go to level i + 1
-                level.Load(4, Content);
+                level.Load(4);
                 Unload();
             };
             components.Add(b3);
@@ -54,7 +54,7 @@ namespace WeakSven
             b4.onClick += delegate(Component sender)
             {
                 // Go to level i + 1
-                level.Load(5, Content);
+                level.Load(5);
                 Unload();
             };
             components.Add(b4);

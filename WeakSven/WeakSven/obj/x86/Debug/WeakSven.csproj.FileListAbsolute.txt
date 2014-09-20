@@ -1,4 +1,3 @@
-C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Player.xnb
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Characters\Player2.xnb
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\Content\Tiles\Block.xnb
@@ -44,5 +43,6 @@ C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\XNA_GUI.dll
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\bin\x86\Debug\XNA_GUI.pdb
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\WeakSven.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\WeakSven.exe
 C:\Users\student\Documents\GitHub\MegamanX-v-Zero-Game\XNAPWN\WeakSven\WeakSven\obj\x86\Debug\WeakSven.pdb
