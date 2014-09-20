@@ -11,6 +11,9 @@ Content\Effects\SkullLeft.xnb
 Content\Effects\SkullRight.xnb
 Content\Effects\SkullUp.xnb
 Content\Button\Button.xnb
+Content\Characters\MegamanX.xnb
+Content\Characters\Sigma.xnb
+Content\Characters\Zero.xnb
 Content\Tiles\Bricks.xnb
 Content\Tiles\Concrete.xnb
 Content\Tiles\Chips.xnb
@@ -26,13 +29,10 @@ Content\Tiles\Log.xnb
 Content\Level_Images\Level1Image.xnb
 Content\Level_Images\Level2Image.xnb
 Content\Level_Images\Level3Image.xnb
+Content\Tiles\Skull.xnb
 Content\Level_Images\Level4Image.xnb
 Content\Audio\SFX\bing.xnb
 Content\Segoe.xnb
-Content\Characters\MegamanX.xnb
-Content\Characters\Sigma.xnb
-Content\Characters\Zero.xnb
-Content\Tiles\Skull.xnb
 Content\Levels\Level2.txt
 Content\Levels\Level4.txt
 Content\Levels\Level3.txt

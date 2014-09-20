@@ -8,7 +8,7 @@ namespace WeakSven
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
-<<<<<<< HEAD
+
         SpriteBatch spriteBatch;
 
         //ImageButton button = new ImageButton(new Vector2(25, 25));     
@@ -17,14 +17,10 @@ namespace WeakSven
         public Player player2 = new Player(new Vector2(500, 350));
         public Enemy enemy = new Enemy(new Vector2(300, 700));
         public Enemy enemy2 = new Enemy(new Vector2(500,-300));
-=======
-        SpriteBatch spriteBatch;       
-
-        public Player player1 = new Player(new Vector2(300, 75));
-        public Player player2 = new Player(new Vector2(500, 350));
+               
         public MainMenu mainMenu = new MainMenu();
         //public Enemy enemy = new Enemy(new Vector2(400, 60));
->>>>>>> ddb40c1ec1109078de42c9eb237025622079129a
+
 
         public static KeyboardState previousKeyboard;
 
@@ -86,7 +82,6 @@ namespace WeakSven
         protected override void UnloadContent() { }
 
         protected override void Update(GameTime gameTime)
-<<<<<<< HEAD
         {
 
             enemy.EnemyFollow(player1);
@@ -102,29 +97,27 @@ namespace WeakSven
                 player2.enemyDeath2(player2, enemy2);
 
             }
-          
-=======
-        {         
->>>>>>> ddb40c1ec1109078de42c9eb237025622079129a
 
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
-                this.Exit();
+            {
 
-			if (Keyboard.GetState().IsKeyDown(Keys.Escape))
-				this.Exit();
+                if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+                    this.Exit();
 
-            UIManager.Update();
+                if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+                    this.Exit();
 
-            player1.Update(gameTime);
-            player2.Update(gameTime);
-            enemy.Update(gameTime);
-            enemy2.Update(gameTime);
-            level.Update(gameTime, player1, player2);
+                UIManager.Update();
 
-            //Singleton Stuff
-			//Player.Instance.Update(gameTime);
-            //Player2.Instance.Update(gameTime);
-           
+                player1.Update(gameTime);
+                player2.Update(gameTime);
+                enemy.Update(gameTime);
+                enemy2.Update(gameTime);
+                level.Update(gameTime, player1, player2);
+
+                //Singleton Stuff
+                //Player.Instance.Update(gameTime);
+                //Player2.Instance.Update(gameTime);
+
 
                 if (Keyboard.GetState().IsKeyDown(Keys.Space) &&
                     previousKeyboard.IsKeyUp(Keys.Space))
@@ -133,12 +126,13 @@ namespace WeakSven
                     player1.Position = new Vector2(25, 50);
                     player2.Position = new Vector2(700, 350);
                 }
-           
-
-            previousKeyboard = Keyboard.GetState();
 
 
-            base.Update(gameTime);
+                previousKeyboard = Keyboard.GetState();
+
+
+                base.Update(gameTime);
+            }
         }
 
         protected override void Draw(GameTime gameTime)
@@ -146,12 +140,9 @@ namespace WeakSven
           
             GraphicsDevice.Clear(Color.Black);
 			spriteBatch.Begin();
-
-<<<<<<< HEAD
+            
             //ImageButton.Draw("Level1Image", Rectangle, Color.White);
-
-=======
->>>>>>> ddb40c1ec1109078de42c9eb237025622079129a
+            
             level.Draw(spriteBatch);
 
             player1.Draw(spriteBatch);
