@@ -89,7 +89,7 @@ namespace WeakSven
             if (CheckBullets(player2, player1))
                 player2score++;
 
-            if (player1score == 2 || player2score == 2)
+            if (player1score == 5 || player2score == 5)
             {
                 player1score = 0;
                 player2score = 0;
