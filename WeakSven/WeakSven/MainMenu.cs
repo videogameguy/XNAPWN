@@ -10,6 +10,7 @@ namespace WeakSven
 {
     public class MainMenu : Menu
     {
+
         public MainMenu() { }
 
         public override void Load(ContentManager Content)

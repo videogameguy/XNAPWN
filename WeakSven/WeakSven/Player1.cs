@@ -116,7 +116,7 @@ namespace WeakSven
         public void Die(Player player1, Player player2)
         {
             player1.Position = new Vector2(25, 50);
-            player2.Position = new Vector2(700, 350);
+            player2.Position = new Vector2(730, 410);
 
         }
 
@@ -129,7 +129,7 @@ namespace WeakSven
 
         public void enemyDeath2(Player player, Enemy enemy)
         {
-            player.Position = new Vector2(700, 350);
+            player.Position = new Vector2(730, 410);
             enemy.Position = new Vector2(500, -300);
 
         }

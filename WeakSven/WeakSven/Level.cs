@@ -94,6 +94,9 @@ namespace WeakSven
                 player1score = 0;
                 player2score = 0;
                 Load(1);
+                player1.Position = new Vector2(25, 50);
+                player2.Position = new Vector2(730, 410);
+
             }
                            
             foreach (Tile t in Tiles)
