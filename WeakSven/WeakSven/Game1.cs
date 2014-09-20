@@ -54,8 +54,8 @@ namespace WeakSven
             level.LoadTextures(Content);
             level.Load(1,Content);
 
-			player1.Load(Content, "Characters/Player");
-            player2.Load(Content, "Characters/Player2");
+			player1.Load(Content, "Characters/Zero");
+            player2.Load(Content, "Characters/MegamanX");
             Projectile.StaticLoad(Content, new string[] { "Effects/SkullUp", "Effects/SkullDown", "Effects/SkullLeft", "Effects/SkullRight" });
         }
 

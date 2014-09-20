@@ -1,6 +1,5 @@
 Content\Characters\Player.xnb
 Content\Characters\Player2.xnb
-Content\Characters\Vile(Enemy).xnb
 Content\Tiles\Block.xnb
 Content\Tiles\Grass.xnb
 Content\Backgrounds\Bars.xnb
@@ -31,6 +30,9 @@ Content\Level_Images\Level3Image.xnb
 Content\Level_Images\Level4Image.xnb
 Content\Audio\SFX\bing.xnb
 Content\Segoe.xnb
+Content\Characters\MegamanX.xnb
+Content\Characters\Sigma.xnb
+Content\Characters\Zero.xnb
 Content\Levels\Level2.txt
 Content\Levels\Level4.txt
 Content\Levels\Level3.txt
