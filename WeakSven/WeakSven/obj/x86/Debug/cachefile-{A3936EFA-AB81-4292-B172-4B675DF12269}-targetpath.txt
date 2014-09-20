@@ -1,6 +1,5 @@
 Content\Characters\Player.xnb
 Content\Characters\Player2.xnb
-Content\Characters\Vile(Enemy).xnb
 Content\Tiles\Block.xnb
 Content\Tiles\Grass.xnb
 Content\Backgrounds\Bars.xnb
@@ -12,6 +11,9 @@ Content\Effects\SkullLeft.xnb
 Content\Effects\SkullRight.xnb
 Content\Effects\SkullUp.xnb
 Content\Button\Button.xnb
+Content\Characters\MegamanX.xnb
+Content\Characters\Sigma.xnb
+Content\Characters\Zero.xnb
 Content\Tiles\Bricks.xnb
 Content\Tiles\Concrete.xnb
 Content\Tiles\Chips.xnb

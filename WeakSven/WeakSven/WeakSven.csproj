@@ -75,11 +75,13 @@
     <Compile Include="Animation.cs" />
     <Compile Include="AudioSFX.cs" />
     <Compile Include="Enemies.cs" />
+    <Compile Include="ImageButton.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="InteractiveCharacter.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Player1.cs" />
     <Compile Include="Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
