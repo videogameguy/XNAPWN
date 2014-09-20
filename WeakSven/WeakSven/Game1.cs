@@ -8,6 +8,7 @@ namespace WeakSven
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
+<<<<<<< HEAD
         SpriteBatch spriteBatch;
 
         //ImageButton button = new ImageButton(new Vector2(25, 25));     
@@ -16,6 +17,14 @@ namespace WeakSven
         public Player player2 = new Player(new Vector2(500, 350));
         public Enemy enemy = new Enemy(new Vector2(300, 700));
         public Enemy enemy2 = new Enemy(new Vector2(500,-300));
+=======
+        SpriteBatch spriteBatch;       
+
+        public Player player1 = new Player(new Vector2(300, 75));
+        public Player player2 = new Player(new Vector2(500, 350));
+        public MainMenu mainMenu = new MainMenu();
+        //public Enemy enemy = new Enemy(new Vector2(400, 60));
+>>>>>>> ddb40c1ec1109078de42c9eb237025622079129a
 
         public static KeyboardState previousKeyboard;
 
@@ -53,8 +62,10 @@ namespace WeakSven
 
             //button.onClick += button_onClick;
 
+            mainMenu.Load(Content, level);
+
             level.LoadTextures(Content);
-            level.Load(1,Content);
+            level.Load(1, Content);
 
 
 			player1.Load(Content, "Characters/Zero");
@@ -64,6 +75,7 @@ namespace WeakSven
 
 
             Projectile.StaticLoad(Content, new string[] { "Effects/SkullUp", "Effects/SkullDown", "Effects/SkullLeft", "Effects/SkullRight" });
+                       
         }
 
         void button_onClick(Component sender)
@@ -74,6 +86,7 @@ namespace WeakSven
         protected override void UnloadContent() { }
 
         protected override void Update(GameTime gameTime)
+<<<<<<< HEAD
         {
 
             enemy.EnemyFollow(player1);
@@ -90,6 +103,9 @@ namespace WeakSven
 
             }
           
+=======
+        {         
+>>>>>>> ddb40c1ec1109078de42c9eb237025622079129a
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
@@ -131,8 +147,11 @@ namespace WeakSven
             GraphicsDevice.Clear(Color.Black);
 			spriteBatch.Begin();
 
+<<<<<<< HEAD
             //ImageButton.Draw("Level1Image", Rectangle, Color.White);
 
+=======
+>>>>>>> ddb40c1ec1109078de42c9eb237025622079129a
             level.Draw(spriteBatch);
 
             player1.Draw(spriteBatch);

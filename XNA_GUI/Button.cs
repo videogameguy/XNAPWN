@@ -30,7 +30,7 @@ namespace XNA_GUI
 
         public Button(Rectangle whereItsAt) : base(whereItsAt) { }
 
-        public virtual void Draw(SpriteBatch spriteBatch)
+        public override void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(UIManager.square, Rect, Color.White);
             spriteBatch.DrawString(UIManager.font, text, textPosition, Color.Black);

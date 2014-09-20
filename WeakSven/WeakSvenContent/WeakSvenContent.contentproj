@@ -202,11 +202,6 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Tiles\Ammo.png">
-      <Name>Ammo</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
     <Compile Include="Level_Images\Level1Image.png">
       <Name>Level1Image</Name>
       <Importer>TextureImporter</Importer>
@@ -219,6 +214,15 @@
     </Compile>
     <Compile Include="Level_Images\Level3Image.png">
       <Name>Level3Image</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Content Include="Levels\Level5.txt">
+      <Name>Level5</Name>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Tiles\Skull.png">
+      <Name>Skull</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
