@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Media;
 using XNA_GUI;
 
 namespace WeakSven
@@ -19,7 +20,8 @@ namespace WeakSven
         public virtual void Unload()
         {
             foreach (Component c in components)
-                c.Unload();
-        }
+              c.Unload();
+        }			
+
     }
 }

@@ -31,7 +31,8 @@ namespace WeakSven
 
         public Player() : base() { }
         public Player(Vector2 startPosition) : base(startPosition) { }
-        public AudioSFX bing = new AudioSFX();
+        public AudioSFX shoot = new AudioSFX();
+		public AudioSFX die = new AudioSFX();
 
         public void SetName(string name) { Name = name; }
 
@@ -53,19 +54,14 @@ namespace WeakSven
         {
             base.Load(Content, imageFile);
 
-            bing.Sound = Content.Load<SoundEffect>("Audio/SFX/bing");
+            shoot.Sound = Content.Load<SoundEffect>("Music/ShotSound");
+			die.Sound = Content.Load<SoundEffect>("Music/Death");
         }
 
         public override void Update(GameTime gameTime)
         {
-            if (((int)gameTime.TotalGameTime.TotalSeconds) % 3 == 0)
-                bing.Play(gameTime);
-
             //animation.sequenceStart = 0;
             //animation.sequenceEnd = animation.sequenceStart + animation.FrameCountX * 2;
-
-
-
             // TODO:  Change player controls to fit your game
 
             if (Keyboard.GetState().IsKeyDown(moveUp))
@@ -92,18 +88,22 @@ namespace WeakSven
             if (Keyboard.GetState().IsKeyDown(shootUp) && Game1.previousKeyboard.IsKeyUp(shootUp))
             {
                 bullets.Add(new Projectile(Position, -Vector2.UnitY) { direction = Projectile.Direction.Up });
+                shoot.FireAndForget();
             }
             else if (Keyboard.GetState().IsKeyDown(shootDown) && Game1.previousKeyboard.IsKeyUp(shootDown))
             {
                 bullets.Add(new Projectile(Position, Vector2.UnitY) { direction = Projectile.Direction.Down });
+				shoot.FireAndForget();
             }
             else if (Keyboard.GetState().IsKeyDown(shootLeft) && Game1.previousKeyboard.IsKeyUp(shootLeft))
             {
                 bullets.Add(new Projectile(Position, -Vector2.UnitX) { direction = Projectile.Direction.Left });
+				shoot.FireAndForget();
             }
             else if (Keyboard.GetState().IsKeyDown(shootRight) && Game1.previousKeyboard.IsKeyUp(shootRight))
             {
                 bullets.Add(new Projectile(Position, Vector2.UnitX) { direction = Projectile.Direction.Right });
+				shoot.FireAndForget();
             }
 
             foreach (Projectile b in bullets)
@@ -117,6 +117,7 @@ namespace WeakSven
         {
             player1.Position = new Vector2(25, 50);
             player2.Position = new Vector2(730, 410);
+			die.FireAndForget();
 
         }
 

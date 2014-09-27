@@ -73,6 +73,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animation.cs" />
+    <Compile Include="Audio.cs" />
+    <Compile Include="AudioBGM.cs" />
     <Compile Include="AudioSFX.cs" />
     <Compile Include="Enemies.cs" />
     <Compile Include="Level.cs" />

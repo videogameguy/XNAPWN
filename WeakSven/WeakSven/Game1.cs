@@ -1,6 +1,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using XNA_GUI;
 
 namespace WeakSven
@@ -57,12 +58,12 @@ namespace WeakSven
             //button.Text = "Click me!";
 
             //button.onClick += button_onClick;
-
-            mainMenu.Load(Content, level); 
+			Song stageSelect = Content.Load<Song>("Music/StageSelect"); mainMenu.Load(Content, level); 
 
             level.LoadTextures(Content);
             level.Load(1);
-
+			MediaPlayer.Play(stageSelect);
+			
 
 			player1.Load(Content, "Characters/Zero");
             player2.Load(Content, "Characters/MegamanX");
