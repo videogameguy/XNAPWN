@@ -26,8 +26,7 @@ namespace WeakSven
         {
             img=Content.Load<Texture2D>(imageFile);
             rect.Width = img.Width;
-            rect.Height = img.Height;
-            //bing.Sound = Content.Load<SoundEffect>("Audio/SFX/bing");
+            rect.Height = img.Height;           
         }
 
         public override void Update(GameTime gameTime)
