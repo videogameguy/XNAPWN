@@ -64,6 +64,9 @@ namespace WeakSven
             //animation.sequenceEnd = animation.sequenceStart + animation.FrameCountX * 2;
             // TODO:  Change player controls to fit your game
 
+			rect.X = (int)Velocity.X;
+			rect.Y = (int)Velocity.Y;
+
             if (Keyboard.GetState().IsKeyDown(moveUp))
             {
                 Velocity.Y = -Speed;
